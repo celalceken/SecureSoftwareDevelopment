@@ -68,7 +68,7 @@ $(function() {
   $('#listele2').hide();
 	
 	
-	$('#ara').click(function() {
+	$('#adi').keyup(function() {
 	$('#mesaj11').hide();
     $('#mesaj22').hide();
 	var ogrenciNo1 = $('#ogrenciNo1').val();

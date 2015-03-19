@@ -1,7 +1,7 @@
 <?php
 	$title="Personel Ana Sayfası";
 	require_once 'Genel/Baslik.php';
-	//require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara eklenmeli...
+	require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara eklenmeli...
  ?>
 
 

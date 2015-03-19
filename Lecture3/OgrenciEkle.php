@@ -138,7 +138,7 @@ $(document).ready(function(){
         		Şifre
         	</td>
         	<td>
-        		<input type="text" id="sifre" name="sifre"  />
+        		<input type="password" id="sifre" name="sifre"  />
         	</td>
 			 
 		 </tr>
