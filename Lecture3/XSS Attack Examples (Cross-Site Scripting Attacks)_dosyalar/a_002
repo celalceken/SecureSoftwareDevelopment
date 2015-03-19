@@ -1,0 +1,10 @@
+if (window['google'] != undefined && window['google']['loader'] != undefined) {
+if (!window['google']['elements']) {
+window['google']['elements'] = {};
+google.elements.Version = '1.0';
+google.elements.JSHash = '53cb38ca35d63cf81c13fdb4e1addec2';
+google.elements.LoadArgs = 'file\75elements\46v\0751\46packages\75inputtools\46async\0752\46sig\07553cb38ca35d63cf81c13fdb4e1addec2\46have\75transliteration';
+}
+google.loader.writeLoadTag("css", google.loader.ServiceBase + "/api/elements/1.0/53cb38ca35d63cf81c13fdb4e1addec2/inputtools.css", true);
+google.loader.writeLoadTag("script", google.loader.ServiceBase + "/api/elements/1.0/53cb38ca35d63cf81c13fdb4e1addec2/inputtools.js", true);
+}
