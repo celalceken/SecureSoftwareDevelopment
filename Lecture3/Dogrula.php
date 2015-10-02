@@ -8,11 +8,11 @@
 		
 		
 
-		$sql="SELECT personelNo,sifre FROM personel where personelNo='".$_POST['personelNo']."' AND sifre='".$_POST['sifre']."'";
+		//$sql="SELECT personelNo,sifre FROM personel where personelNo='".$_POST['personelNo']."' AND sifre='".$_POST['sifre']."'";
 		
-		//$sql="SELECT personelNo,sifre FROM personel where personelNo='".mysqli_real_escape_string($baglantiNo,$_POST['personelNo'])."' AND sifre='".mysql_real_escape_string($_POST['sifre'])."'";
+		$sql="SELECT personelNo,sifre FROM personel where personelNo='".mysqli_real_escape_string($baglantiNo,$_POST['personelNo'])."' AND sifre='".mysql_real_escape_string($_POST['sifre'])."'";
 		
-		//$sql="SELECT personelNo,sifre FROM personel where personelNo='".filter_var($_POST['personelNo'],FILTER_SANITIZE_STRING)."' AND sifre='".filter_var($_POST['sifre'],FILTER_SANITIZE_STRING)."'";
+		$sql="SELECT personelNo,sifre FROM personel where personelNo='".filter_var($_POST['personelNo'],FILTER_SANITIZE_STRING)."' AND sifre='".filter_var($_POST['sifre'],FILTER_SANITIZE_STRING)."'";
 	
 		//$sql="SELECT personelNo,sifre FROM personel where personelNo='".$_POST['personelNo']."' AND sifre='".md5($_POST['sifre'])."'";
 		
