@@ -1,7 +1,7 @@
-<?php  require_once 'Guvenlik/PersonelDenetim.php';
+<?php  require_once '../Guvenlik/PersonelDenetim.php';
 
 
-	require_once 'Genel/VeritabaniBaglantisi.php';
+	require_once '../Genel/VeritabaniBaglantisi.php';
 	
 	if(!isset($_GET['mod']))
 		$sql="SELECT * FROM ogrenciler where ogrenciNo='".$_POST['ogrenciNo']."' 

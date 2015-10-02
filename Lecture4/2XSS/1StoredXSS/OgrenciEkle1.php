@@ -1,5 +1,5 @@
 <?php
-		 require_once 'Genel/VeritabaniBaglantisi.php';
+		 require_once '../Genel/VeritabaniBaglantisi.php';
 // 		
 // 		
 		$sifre=md5($_POST['sifre']);

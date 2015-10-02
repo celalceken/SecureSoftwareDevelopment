@@ -1,5 +1,5 @@
 <?php
-		require_once 'Genel/VeritabaniBaglantisi.php';
+		require_once '../Genel/VeritabaniBaglantisi.php';
 		
 		
 		$sql="SELECT ogrenciNo FROM ogrenciler where ogrenciNo='".$_GET['ogrenciNo']."'";

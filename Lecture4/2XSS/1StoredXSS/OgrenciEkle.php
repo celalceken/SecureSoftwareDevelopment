@@ -1,5 +1,5 @@
-<?php  require_once 'Guvenlik/PersonelDenetim.php';
-	   require_once 'Genel/VeritabaniBaglantisi.php';
+<?php  require_once '../Guvenlik/PersonelDenetim.php';
+	   require_once '../Genel/VeritabaniBaglantisi.php';
 	
 	?>
 

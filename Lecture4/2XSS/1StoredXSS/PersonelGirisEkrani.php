@@ -1,6 +1,6 @@
 <?php
 	$title="Personel Girişi";
-	include 'Genel/Baslik.php';
+	include '../Genel/Baslik.php';
 ?>
 <div id="topNavigation"></div>
 

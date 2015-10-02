@@ -1,6 +1,6 @@
 <?php //include 'includes/PersonelDenetim';?>
 <?php
- require_once 'Guvenlik/PersonelDenetim.php';
+ require_once '../Guvenlik/PersonelDenetim.php';
 
  ?>
 	

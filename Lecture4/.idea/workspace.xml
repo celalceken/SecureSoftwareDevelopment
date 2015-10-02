@@ -24,113 +24,7 @@
     <favorites_list name="Lecture4" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="VeritabaniBaglantisi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Genel/VeritabaniBaglantisi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6363637" vertical-offset="0" max-vertical-offset="504">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonelGirisEkrani.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PersonelGirisEkrani.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.030303" vertical-offset="2219" max-vertical-offset="3648">
-              <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dogrula.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dogrula.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4861111" vertical-offset="78" max-vertical-offset="1392">
-              <caret line="12" column="77" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="77" />
-              <folding>
-                <marker date="1426775804811" expanded="true" signature="232:345" placeholder="SELECT perso..personel..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OgrenciEkle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OgrenciEkle.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.545455" vertical-offset="1854" max-vertical-offset="4296">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.230769" vertical-offset="92" max-vertical-offset="576">
-              <caret line="16" column="311" selection-start-line="16" selection-start-column="311" selection-end-line="16" selection-end-column="311" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForVictims.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2ReflectedXSS/ForVictims.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.090909" vertical-offset="0" max-vertical-offset="360">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Phishing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Phishing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.090909" vertical-offset="39" max-vertical-offset="504">
-              <caret line="10" column="107" selection-start-line="10" selection-start-column="101" selection-end-line="10" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stealing.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Stealing.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.151515" vertical-offset="796" max-vertical-offset="1296">
-              <caret line="48" column="159" selection-start-line="48" selection-start-column="152" selection-end-line="48" selection-end-column="159" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonelDenetim.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guvenlik/PersonelDenetim.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.181818" vertical-offset="243" max-vertical-offset="960">
-              <caret line="20" column="67" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cikis.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guvenlik/Cikis.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4545455" vertical-offset="0" max-vertical-offset="768">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -296,12 +190,11 @@
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17580767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17580767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23708206" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -310,6 +203,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23708206" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -338,6 +232,79 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Genel/VeritabaniBaglantisi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="504">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonelGirisEkrani.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2219" max-vertical-offset="3648">
+          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dogrula.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1392">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OgrenciEkle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="4296">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Log.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="576">
+          <caret line="16" column="311" selection-start-line="16" selection-start-column="311" selection-end-line="16" selection-end-column="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2ReflectedXSS/ForVictims.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="360">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Phishing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="504">
+          <caret line="10" column="107" selection-start-line="10" selection-start-column="101" selection-end-line="10" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Stealing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="1296">
+          <caret line="48" column="159" selection-start-line="48" selection-start-column="152" selection-end-line="48" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guvenlik/PersonelDenetim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="960">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guvenlik/Cikis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="768">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -464,92 +431,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1818182" vertical-offset="0" max-vertical-offset="4680">
           <caret line="3" column="48" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonelGirisEkrani.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.030303" vertical-offset="2219" max-vertical-offset="3648">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2219" max-vertical-offset="3648">
           <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Guvenlik/PersonelDenetim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.181818" vertical-offset="243" max-vertical-offset="960">
+        <state vertical-scroll-proportion="0.40099832" vertical-offset="119" max-vertical-offset="720">
           <caret line="20" column="67" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Guvenlik/Cikis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4545455" vertical-offset="0" max-vertical-offset="768">
+        <state vertical-scroll-proportion="0.059900165" vertical-offset="0" max-vertical-offset="601">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Genel/VeritabaniBaglantisi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6363637" vertical-offset="0" max-vertical-offset="504">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="504">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OgrenciEkle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.545455" vertical-offset="1854" max-vertical-offset="4296">
+        <state vertical-scroll-proportion="-0.42857143" vertical-offset="1854" max-vertical-offset="3222">
           <caret line="89" column="8" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2ReflectedXSS/ForVictims.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.090909" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.20965058" vertical-offset="0" max-vertical-offset="601">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Phishing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.090909" vertical-offset="39" max-vertical-offset="504">
+        <state vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="601">
           <caret line="10" column="107" selection-start-line="10" selection-start-column="101" selection-end-line="10" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Stealing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.151515" vertical-offset="796" max-vertical-offset="1296">
+        <state vertical-scroll-proportion="0.6632653" vertical-offset="384" max-vertical-offset="972">
           <caret line="48" column="159" selection-start-line="48" selection-start-column="152" selection-end-line="48" selection-end-column="159" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2ReflectedXSS/Log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.230769" vertical-offset="92" max-vertical-offset="576">
-          <caret line="16" column="311" selection-start-line="16" selection-start-column="311" selection-end-line="16" selection-end-column="311" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4840336" vertical-offset="0" max-vertical-offset="595">
+          <caret line="16" column="311" selection-start-line="16" selection-start-column="311" selection-end-line="16" selection-end-column="311" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dogrula.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4861111" vertical-offset="78" max-vertical-offset="1392">
+        <state vertical-scroll-proportion="0.36734694" vertical-offset="0" max-vertical-offset="1044">
           <caret line="12" column="77" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="77" />
-          <folding>
-            <marker date="1426775804811" expanded="true" signature="232:345" placeholder="SELECT perso..personel..." />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 
 		<?php
-		require_once 'Genel/VeritabaniBaglantisi.php';
+		require_once '../Genel/VeritabaniBaglantisi.php';
 		
 		// 11' or '1'='1'#
 
