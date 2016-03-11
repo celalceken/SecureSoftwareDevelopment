@@ -2,9 +2,9 @@
 
 require_once "../Configuration/DatabaseConnection1.php";
 
-$result = mysqli_query($baglantiNo, "SELECT * FROM ogrenciler");
+$result = pg_query($baglantiNo, "SELECT * FROM \"Ogrenci\"");
 
-mysqli_close($baglantiNo);
+pg_close($baglantiNo);
 
 echo "<table id='mytable'>
 		<tr>
@@ -12,7 +12,7 @@ echo "<table id='mytable'>
 			<th>Soyadı</th>
 		</tr>";
 
-while ($row = mysqli_fetch_array($result)) {
+while ($row = pg_fetch_array($result)) {
     echo "
 		<tr>
 			";

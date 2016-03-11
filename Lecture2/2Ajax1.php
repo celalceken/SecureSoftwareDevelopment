@@ -3,14 +3,15 @@
 require_once "../Configuration/DatabaseConnection1.php";
 
 
-$sql="SELECT * FROM ogrenciler where ogrenciNo Like '".$_POST['ogrenciNo']."%'";
+//$sql="SELECT * FROM \"Ogrenci\" where \"ogrenciNo\" Like '".$_POST['ogrenciNo']."%'";
+$sql="SELECT * FROM \"Ogrenci\" where \"ogrenciNo\" = '".$_POST['ogrenciNo']."'";
 
 
-$result = mysqli_query($baglantiNo,$sql);
+$result = pg_query($baglantiNo,$sql);
 
-mysqli_close($baglantiNo);
+pg_close($baglantiNo);
 
-if(mysqli_num_rows($result)!=0)
+if(pg_num_rows($result)!=0)
 {
 
 
@@ -26,4 +27,4 @@ else
 
 echo json_encode($data);
 
-mysqli_free_result($result);
+pg_free_result($result);

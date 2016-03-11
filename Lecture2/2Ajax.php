@@ -72,12 +72,12 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                     var sonuc = data['sonuc'];
                     if (sonuc == '1')
                     {
-                        $("#mesaj").html("Kayıt bulunmuştur!!!").slideDown("1500");
+                        $("#mesaj").html("Öğrenci kayıtlı!!!").slideDown("1500");
                     }
                     else
                     {
 
-                        $("#mesaj").html("Kayıt bulunamadı!!!").slideDown("1500");
+                        //$("#mesaj").html("Kayıt bulunamadı!!!").slideDown("1500");
 
                     }
 
@@ -107,10 +107,10 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 <div id="ortaForm" style="margin-left: 200px;height: 200px">
 
-    <h5 id="mesaj" style="display: none"> </h5>
+
     <form action="" id="form1">
         Numaraaaa:
-        <input type="text" id="ogrenciID" name="ogrenciID"/><br />
+        <input type="text" id="ogrenciID" name="ogrenciID"/><br /><h5 id="mesaj" style="display: none"> </h5>
 
         Adı: <input type="text" id="adi" name="adi"/><br />
 

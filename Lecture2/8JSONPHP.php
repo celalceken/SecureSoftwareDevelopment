@@ -10,7 +10,10 @@
         $(document).ready(function()
         {
 
-            $('#adi').keyup(function() {
+            $('#adi').keyup(function(e) {
+
+               if(e.which==16) // ignore shift key
+                    return;
 
                 // var form_data= $("#form1").serialize();
 
