@@ -2,6 +2,11 @@
 
 
 require_once 'Include/DatabaseConnection.php';
+require_once(__DIR__.'/Model/Ogrenci.class.php');
+require_once 'Model/ModelFactory.class.php';
+require_once(__DIR__.'/Model/OgrenciGoruntuleJSON.class.php');
+
+
 
 /*if(!isset($_GET['mod']))
     $sql="SELECT * FROM ogrenciler where ogrenciNo='".$_POST['ogrenciNo']."'
@@ -14,10 +19,14 @@ $sql="SELECT \"ogrenciNo\", \"adi\", \"soyadi\" FROM \"Ogrenci\" where \"adi\" L
 
 //$sql="SELECT * FROM \"AkademikPersonel\" where \"personelNo\"= :pn AND \"sifre\"= :sfr";
 
-$query = $veritabani->prepare($sql);
+$query = $veritabaniBaglantisi->prepare($sql);
 $query->execute();
 //$sth->execute(array(':pn' => $this->userName, ':sfr' => $this->password));
 //$result = $sth->fetchAll();
+
+
+$query->setFetchMode(PDO::FETCH_CLASS, "\cc\Ogrenci");
+$ogrenciler=$query->fetchAll();
 
 
 
@@ -29,6 +38,7 @@ $query->execute();
 			<th>Öğrenci No</th>
 			<th> Adı</th>
 			<th>Soyadi</th>
+			<th>JSON</th>
 			<th>Düzenle</th>
 			<th>Sil</th>
 			<th>Ayrıntı</th>
@@ -38,7 +48,8 @@ $query->execute();
 		<?php
 
 		$satirNo=0;
-		while($row=$query->fetch(PDO::FETCH_OBJ))
+		$ogrenciJSON = ModelOlusturucu::modelOlustur('OgrenciGoruntuleJSON');
+		foreach($ogrenciler as $ogrenci)
 		{
 			if($satirNo++%2)
 				/*echo "<tr class=\"success\">";
@@ -46,20 +57,23 @@ $query->execute();
 				echo "<tr class=\"active\">";
 
 
-			echo "<td>". $row->ogrenciNo."</td>";
-			echo "<td>". $row->adi."</td>";
-			echo "<td>". $row->soyadi."</td>";
+
+
+			echo "<td>". $ogrenci->getOgrenciNo()."</td>";
+			echo "<td>". $ogrenci->getAdi()."</td>";
+			echo "<td>". $ogrenci->getSoyadi()."</td>";
+			echo "<td>". $ogrenciJSON->tekGoruntule($ogrenci)."</td>";
 
 			?>
 			<td>
-				<a href="#" class="duzenle" id="<?php echo $row->ogrenciNo;?>" >Düzenle</a>
+				<a href="#" class="duzenle" id="<?php echo $ogrenci->getOgrenciNo();?>" >Düzenle</a>
 			</td>
 			<td>
-				<a href="#" class="sil"  id="<?php echo $row->ogrenciNo;?>">Sil</a>
+				<a href="#" class="sil"  id="<?php echo $ogrenci->getOgrenciNo();?>">Sil</a>
 			</td>
 			<?php
 
-			echo "<td>  <a href=\"#\" class=\"ayrinti\" rel=\"pop-up\"  id=\"".$row->ogrenciNo."\">Ayrıntı</a></td>";
+			echo "<td>  <a href=\"#\" class=\"ayrinti\" rel=\"pop-up\"  id=\"".$ogrenci->getOgrenciNo()."\">Ayrıntı</a></td>";
 			?>
 
 			</tr>

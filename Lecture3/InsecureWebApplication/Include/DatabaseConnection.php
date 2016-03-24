@@ -12,8 +12,8 @@ require_once(__DIR__ . '/../Classes/DatabaseException.class.php');
 
 	try
     {
-        $veritabaniNesnesi= Veritabani::getInstance();
-        //$veritabani = new Veritabani();
+        $veritabaniNesnesi= Database::getInstance();
+
     }
     catch (DBException $e)
     {
@@ -21,6 +21,6 @@ require_once(__DIR__ . '/../Classes/DatabaseException.class.php');
         exit(1);
     }
 
-    $veritabani=$veritabaniNesnesi->getVeritabani();
-   // var_dump($veritabani);
+    $veritabaniBaglantisi=$veritabaniNesnesi->getDatabaseConnection();
+    //var_dump($veritabaniBaglantisi);
 

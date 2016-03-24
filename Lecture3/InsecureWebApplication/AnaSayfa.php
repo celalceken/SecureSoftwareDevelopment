@@ -8,7 +8,13 @@
 
 $title="Personel Ana Sayfası";
 //require_once 'Include/Baslik.php';
-require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara eklenmeli...
+require_once(__DIR__.'/Model/AkademikPersonel.class.php'); // Session icerisindeki nesnenin oluşturulabilmesi için gerekli
+//require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara eklenmeli...
+
+session_start();
+
+//$_SESSION['akademikPersonel']->getAdi();
+//echo "aaa".$_SESSION['personelNo'];
 ?>
 
 <!DOCTYPE html>
@@ -22,35 +28,10 @@ require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" hrf="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/smoothness/jquery-ui.css" />
-    <!--<style>
-    html,
-    body {
-    height: 100%;
-    /* The html and body elements cannot have any padding or margin. */
-    }
-
-    /* Wrapper for page content to push down footer */
-    #wrap {
-    min-height: 90%;
-    height: auto !important;
-    height: 80%;
-    /* Negative indent footer by its height */
-    margin: 0 auto -60px;
-    /* Pad bottom by footer height */
-    padding: 0 0 60px;
-    }
-
-    /* Set the fixed height of the footer here */
-    #footer {
-    height: 20px;
-    background-color: #f5f5f5;
-    }
-    </style>-->
-
 
 </head>
 <body >
-<!--<div id="wrap">-->
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -71,9 +52,17 @@ require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara
                     <li><a href="#">Not Girişi</a></li>
                 </ul>
             </li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
+
         </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="#"><?php //var_dump($_SESSION);
+                             $ap=$_SESSION['akademikPersonel']; echo $ap->getAdi()." ". $ap->getSoyadi();?></a></li>
+            <li><a href="Include/Cikis.php">  <span class="glyphicon glyphicon-log-out" style="alignment: "></span></a></li>
+
+        </ul>
+
     </div>
 </nav>
 
@@ -87,9 +76,7 @@ require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara
                 <div class="panel-heading" >Giriş Sayfası
                 </div>
 
-                <div class="panel-body" >
-                    Gövde...
-                </div>
+                <div class="panel-body" > Giriş Sayfası   </div>
             </div>
         </div>
 
@@ -100,7 +87,7 @@ require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara
                 <div class="panel-body" id="messages1" style="max-height: 200px">
                     <ol>
                         <li>Duyuru1</li>
-                        <li>Duyuru2</li>
+                        <li> </li>
                     </ol>
                 </div>
             </div>
@@ -109,8 +96,7 @@ require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara
 
 
 </div>
-<!--</div>
--->
+
 <footer id="footer" class="footer">
     <div class="container">
         <p class="text-muted">Öğrenci Bilgi Sistemi</p>

@@ -1,6 +1,5 @@
 <?php
  require_once 'Guvenlik/PersonelDenetim.php';
-//require_once 'Genel/VeritabaniBaglantisi.php';
 
  ?>
 
@@ -58,7 +57,7 @@
 	<!-- <h4 id="listele1" align="center">Arama Sonucu</h4><br /> -->
 	<div  class="panel panel-success">
 		<div class="panel-heading">Arama Sonucu</div>
-		<div id="listele2" class="panel-body " ></div>
+		<div id="listele2" class="panel-body" style="max-height: 250px;overflow-y: scroll;" ></div>
 
 	</div>
 

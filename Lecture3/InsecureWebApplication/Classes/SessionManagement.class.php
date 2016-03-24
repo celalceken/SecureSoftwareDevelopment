@@ -1,42 +1,60 @@
 <?php
 require_once(__DIR__.'/../Model/AkademikPersonel.class.php');
+//require_once 'Classes/ObjectFactory.class.php';
+
+
 
 class SessionManagement {
 
-    protected $userName;
-    protected $password;
 
-    protected $database;
-    protected $user;     // stores the user data
 
-    public function __construct($db, $userName, $password)
+   /* public function __construct()
     {
-        $this->database = $db;
-        $this->userName = $userName;
-        $this->password = $password;
-    }
 
-    public function login()
+    }*/
+
+    public function login($userName,$password)
     {
-        $user = $this->checkCredentials();
-        if ($user) {
-            $this->user = $user; // store it for further consideration
-            //$_SESSION['user'] = $this->user;
-            return $user;//$user['id'];
+        require_once (__DIR__.'/../Include/Logger.php');
+        if($akademikPersonel=$this->checkCredentials($userName,$password))
+        {
+
+            session_start();
+
+
+
+
+            $_SESSION['baglandi'] =TRUE;
+
+            $_SESSION['baslangicZamani']=time();
+
+            $_SESSION['akademikPersonel']=  $akademikPersonel;
+            $logger->log($akademikPersonel->getPersonelNo().' baglandi...',LOGGER::INFO);
+            //serialize(new User(mysqli_fetch_assoc($result)));
+
+            // Yetki düzeyi de eklenmeli...
+
+            // var_dump($_SESSION);
+
+            //echo  $_SESSION['personelNo'];
+            return TRUE;
         }
-        return false;
+        $logger->log($_POST['personelNo'].' hatali kimlik bilgisi',LOGGER::WARNING);
+        return FALSE;
     }
 
-    protected function checkCredentials()
+    protected function checkCredentials($userName,$password)
     {
         /*$sql="SELECT personelNo, adi, soyadi,sifre FROM AkademikPersonel where personelNo='"
             .$this->userName."' AND sifre='".$this->password."'";//
             //sifre='".md5($this->password)."'";*/
 
+        include(__DIR__.'/../Include/DatabaseConnection.php');
+
         $sql="SELECT \"personelNo\",\"adi\",\"soyadi\",\"sifre\" FROM \"AkademikPersonel\" where \"personelNo\"= :pn AND \"sifre\"= :sfr";
 
-        $sth = $this->database->prepare($sql);
-        $sth->execute(array(':pn' => $this->userName, ':sfr' => $this->password));
+        $sth = $veritabaniBaglantisi->prepare($sql);
+        $sth->execute(array(':pn' => $userName, ':sfr' => md5($password)));
 
         $sth->setFetchMode(PDO::FETCH_CLASS, "\cc\AkademikPersonel");
         $akademikPersonel=$sth->fetchAll();
@@ -50,30 +68,16 @@ class SessionManagement {
         return false;
     }
 
-    public function getUser()
+    public function logout()
     {
-        return $this->user;
+        session_start();
+
+        session_destroy();
+        //echo "deneme";
+        //$adres=__DIR__.'/../index.html';
+        header("Location: ../index.html");
+        die();
     }
-
-    /*if(mysql_num_rows($result) == 1)
-    {
-        $_SESSION["user"] = serialize(new User(mysql_fetch_assoc($result)));
-        $_SESSION["login_time"] = time();
-        $_SESSION["logged_in"] = 1;
-        return true;
-    }else{
-        return false;
-    }
-}
-
-//Log the user out. Destroy the session variables.
-public function logout() {
-    unset($_SESSION["user"]);
-    unset($_SESSION["login_time"]);
-    unset($_SESSION["logged_in"]);
-    session_destroy();
-}*/
-
 
 
 }

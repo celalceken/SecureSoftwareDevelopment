@@ -8,18 +8,19 @@
 
 
 
-class ObjectFactory {
+class ModelOlusturucu {
 
-    public static function getObject($class,$param1,$param2,$param3,$param4)
+    public static function modelOlustur($class,$param1,$param2,$param3,$param4)
     {
         try
         {
-            //$dir = 'Classes/' . $class.'.class.php';
-            $dir = __DIR__.'/' . $class.'.class.php';
+            $dir = __DIR__.'/'.$class.'.class.php';
             //echo $dir;
             if(file_exists($dir))
             {
-                include_once $dir;
+                require_once $dir;
+                $class='\cc\\'.$class;
+                //echo $class;
                 return new $class($param1,$param2,$param3,$param4);
             }
             else

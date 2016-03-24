@@ -8,11 +8,28 @@
 
 namespace cc;
 
-require_once 'Kisi.class.php';
+require_once (__DIR__.'/Kisi.class.php');
 
 class AkademikPersonel extends \cc\Kisi
 {
     protected $personelNo;
+    protected $adres;
+
+    /**
+     * @return mixed
+     */
+    public function getAdres()
+    {
+        return $this->adres;
+    }
+
+    /**
+     * @param mixed $adres
+     */
+    public function setAdres($adres)
+    {
+        $this->adres = $adres;
+    }
 
 
     /**

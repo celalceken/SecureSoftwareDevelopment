@@ -223,14 +223,15 @@ ALTER TABLE ONLY "Ogrenci" ALTER COLUMN id SET DEFAULT nextval('"Ogrenciler_id_s
 -- Data for Name: AkademikPersonel; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO "AkademikPersonel" VALUES (3, 'A1', 'Ahmet', 'Yılmaz', 1, '1                                                                                                                               ');
+INSERT INTO "AkademikPersonel" VALUES (3, 'A1', 'Ahmet', 'Yılmaz', 1, 'c4ca4238a0b923820dcc509a6f75849b                                                                                                ');
+INSERT INTO "AkademikPersonel" VALUES (4, 'A2', 'Umut', 'Işık', 1, 'c81e728d9d4c2f636f067f89cc14862c                                                                                                ');
 
 
 --
 -- Name: AkademikPersonel_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"AkademikPersonel_id_seq"', 3, true);
+SELECT pg_catalog.setval('"AkademikPersonel_id_seq"', 4, true);
 
 
 --
