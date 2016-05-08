@@ -1,0 +1,345 @@
+/* Basic information 
+
+Theme Red Color: #e41b17
+padding: 5px 5px 20px 5px; background:#E3F0F2 none repeat scroll 0 0; border-color:#ADDDE6; border-style:solid;
+
+*/
+
+div.fancy-widget {
+padding: 5px 5px 5px 5px; background:#f9f7e4; none repeat scroll 0 0; border-color:#ADDDE6; border-style:solid;
+}
+
+.custom .stbutton {
+margin-left: 10px;
+}
+/* Social bar CSS 
+
+float:left;
+
+*/
+.social-ad-bar {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background: #F2F0E8 ;
+clear:left;
+padding:10px 10px 10px;
+}
+
+.social-bar {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background: #F2F0E8 ;
+clear:left;
+padding:10px 5px 35px;
+}
+
+.social-bar ul li {
+display:inline;
+float:left;
+}
+
+.social-bar ul, .social-bar ul li {
+list-style-type:none;
+margin:0;
+padding:0 10px 0 5px;
+}
+
+.social-bar ul li a:link, .social-bar ul li a:visited, .social-bar ul li a:active {
+color:#857F70;
+display:block;
+font-size:1.1em;
+font-weight:bold;
+margin-bottom:10px;
+text-decoration:none;
+}
+.social-bar ul li a:hover {
+color:#352D16;
+text-decoration:underline;
+}
+.social-bar-share a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(/images/bookmark-icon24.png) no-repeat scroll 0 0;
+padding:0px 0 0px 30px;
+}
+
+.social-bar-comment a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(/images/comment-icon24.png) no-repeat scroll 0 0;
+padding:0px 0 0px 30px;
+}
+
+/* Test -- work in progress. reduce space on the top title and content */
+.custom .headline_area {
+margin-bottom:1em;
+}
+.custom .headline_area_msg  { font-size: 1.1em; }
+.custom .headline_area_msg  a { text-decoration: underline; }
+
+/* Test -- work in progres. Footer Ads */
+#footer-ad{
+	background: #666 ;
+	border-top:1px solid #B21f24;
+	padding:10px 0 10px 0;
+}
+
+/* Test -- work in progress .custom h1, .custom h2, .custom h3 { font-weight: bold; } */
+#tgs-tags { font-size: x-small; color: #666; }
+#tgs-tags { border-bottom: 1px dotted #bbb; }
+#sidebar-rect-ad { border-top: 1px dotted #bbb; padding-top: 5px;}
+
+.custom h1, .custom h2 { color: #a90000; letter-spacing: -1px; }
+	.custom h2 a, .custom h2 a:visited { color: #a90000; }
+	.custom h2 a:hover { color: #000; }
+	.custom #content #archive_info h1 { font-weight: bold; color: #222; }
+
+/* Custom x: Remove caption around the image */
+.custom .wp-caption { background: white; border: none; }
+
+
+/* Custom 1: 
+
+- Site background color
+- Remove space at the top of the site and change background color
+- Set the page background color to white?
+
+
+
+*/
+body.custom { background: 	#535353;  }
+.custom #container { margin-top: 1em; margin-bottom: 2em; : 0.3em; background: #33ffff;  }
+.custom #page { background: #fff;  }
+		
+/* Custom 2: Header, Logo, Ad next to Logo, Tagline #4E9258; 
+padding-bottom:2em;
+padding-top:1em;
+*/
+.custom #header {
+border-bottom: 0;
+padding: 1em 0 2em 0;
+background: #fff;	
+}
+.custom #header:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.custom #header #logo {width:172px; height:100px; float:left; border: 0em solid #3effff; padding:0 0 0 8px; }
+.custom #header #header_ad {width:728px; height:90px; float:right;  padding: 6px 2px 0 0;}
+.custom #header #header_ad #header_ad1 {width:728px; height:90px; border: 0px solid #403f3f; float:right;}
+.custom #header #tagline { 
+    font-family: Georgia, "Times New Roman", Serif;
+	text-align: left;
+	font-size: 1.2em;
+	color: #000;
+	font-weight: bold;
+	padding-top: 90px;
+}
+
+
+/* Custom x: Menu Bar Customization 
+
+#4E9258
+#736AFF
+#2B3856 (kk)
+#a90000
+#e41b17
+
+#tabs { list-style: none; border: 1px solid #ddd; border-width: 0 0 0px 0px; }
+#tabs li { margin-bottom: 0em; background: #403f3f; border: 1px solid #403f3f; border-left: 0; float: left; }
+#tabs .current_page_item, #tabs .current-cat { padding-bottom: 0; background: #403f3f; border-bottom: 0; }
+ul#tabs {background:#403f3f;}
+ul#tabs li{background:transparent;}
+#tabs a:hover { color: #fff; background: #a90000; text-decoration: none;}
+#tabs a { display: block; line-height: 1em; color: #fff; text-transform: none; letter-spacing: 2px; font-weight: none;}
+#tabs .current_page_item a, #tabs .current-cat a { cursor: text; background:#403f3f;}
+#tabs .current_page_item a:hover, #tabs .current-cat a:hover { text-decoration: none; }
+
+*/
+.menu { list-style: none; border: 0px solid #ddd; border-width: 0 0 0px 0px; background: #403f3f; }
+.menu a:hover { color: #fff; background: #a90000; text-decoration: none;}
+.menu a { display: block; line-height: 1em; color: #fff; text-transform: none; letter-spacing: 2px; font-weight: none;}
+.menu .current a, .menu .tab.current a { cursor: text; background:#403f3f;}
+.menu .current a:hover, .menu .tab.current a:hover { text-decoration: none; }
+
+/* Custom x: Advertisement below the menu bar. horizontal google ads */
+#top-ad-menu{
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: left;
+	background: #666 ;
+	border-top:1px solid #B21f24;
+	padding:6px 0 6px 0;
+}
+
+/* Custom 3: Side Bar 
+
+- set background color
+- side bar border settings
+- BEGIN sidebar h3 custom font-weight
+
+*/
+ .custom #sidebars {background: #f1f0ed;} 
+.custom #sidebar_1 { border-style: dotted; border-color: #ddd; }
+.custom .sidebar h3 { font-weight: bold;  border-bottom-style:dotted; border-color: #ddd; border-width: 2px;}
+.custom .sidebar a { text-decoration: underline; }
+/* Custom 4: Footer
+- Header customization
+*/
+.custom  .sidebar_list h3 { font-weight: bold; text-align: left; border-bottom: 1px dotted; border-color: #ddd; }
+/*
+	<div id="footer">
+<div class="col_footer1">
+	<ul class="sidebar_list">
+*/
+.custom #footer { background: #1b1d1e; color: #fff; }
+#footer a:hover { color: #fff; }
+
+/* Custom 5: Side bar widgets
+- text-4: Free eBook Text widget
+.custom #text-4 img.bookfloat { float:left; margin:5px;}
+.custom #text-4 img.float { float:left;clear:left; margin:5px;}
+*/
+
+
+/* Custom 6: Footer widgets
+- text-7: About The Geek Stuff
+- text-9: Contact Us
+- text-8: Networking
+*/
+.custom #text-7 { text-align:left ; float: left; width: 33%; padding: 0px 10px 0 10px; }
+.custom #text-7 img.float { float:left;clear:left; margin:5px;}
+.custom #text-9 { text-align:left; float: right; width: 30%; padding: 0 10px 0 10px; }
+.custom #text-8{ float: right; width: 28%; padding: 0 10px 0 10px; text-align: left}
+
+/* Custom 7: Single Post bottom
+- Linux 101 Books
+- Related Post display
+-
+*/
+.single-post-bottom-101hacks { text-align:left ; float: left; width: 25%; padding: 0px 10px 0 10px; }
+.single-post-bottom-related-posts { float: right; width: 60%;	padding: 0 10px 0 10px;}
+
+/* Custom x: For RSS 
+ 
+*/
+a.rss { background: url("http://www.thegeekstuff.com/images/feed14.png") top left no-repeat;width:17px }
+div.addrss p a.google {background:url("images/google-rss.gif") top left no-repeat;width:67px}
+div.addrss p a.yahoo {background:url("images/yahoo-rss.gif") top left no-repeat;width:62px}
+div.addrss p a.twitter {background:url("http://www.thegeekstuff.com/images/twitter16.png") top left no-repeat;width:16px}
+div.addrss span{font-size:11px;display:block;color:#333;margin:0 0 5px 10px}
+div.addrss p a{float:left;color:#fff;margin:0 5px 7px 0}
+.signup { float:left; }
+.feedcount { float:right; margin:5px; }
+
+/* Custom x: For backward compatability with old theme */
+code { line-height: 1em; background: #fff; }
+
+.optional_excerpt {
+	float:right;
+	margin-left:20px;
+	font-size:10px;
+	font-style:italic;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	position:relative;
+	text-align:right;
+	color:#555555;
+}
+.optional_excerpt img {
+	display:block;
+}
+
+.optional_excerpt a {
+	color:#98c4e0;
+}
+
+
+
+/* To Be Deleted */
+
+.custom .banner {
+float:left;
+height:100%;
+margin:5px 0 0;
+padding:0 0 0 0;
+width:315px;
+}
+
+.banner ul {
+margin:0;
+overflow:hidden;
+padding:0;
+}
+
+.banner li {
+background:#FFFFFF none repeat scroll 0 0;
+display:block;
+float:left;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:10px 5px 0;
+overflow:hidden;
+padding:8px 9px;
+width:125px;
+}
+
+.custom #custom_box input.form_submit{
+	border-color:#CCCCCC #999999 #999999 #CCCCCC;
+	border-style:double;
+	border-width:3px;
+	color:#111111;
+	cursor:pointer;
+	font-weight:bold;
+	overflow:visible;
+	width:auto !important;
+}
+
+.custom div#subscribebox {padding:12px; background:#f9f7e4; border-color:#ADDDE6; border-width: 0; border-style:solid; width:auto;}
+.custom div#subscribebox #leftbox {margin-left: 8px; margin-top: 8px; margin-bottom: 8px; width:55%; float: left;}
+.custom div#subscribebox form { margin-top: 8px;}
+.custom input.form_submit { padding:1px 5px;}
+.custom div#subscribebox ul#utilitylinks {width:35%; font: normal 12px arial; border-left: 1px solid #dddddd; float:right; list-style-type: none; margin: 0 0 0 0;}
+.custom div#subscribebox ul#utilitylinks li {margin-left: 10px; padding:8px;}
+.custom div#subscribebox ul#utilitylinks li#rss {padding-left:22px; background:url(/images/feed14.png) no-repeat left center;}
+.custom div#subscribebox ul#utilitylinks li#lastupdated {padding-left:22px; background:url(/images/icon-date.gif) no-repeat left center;}
+
+.custom ul#infolinks {width:100%; list-style-type: none;}
+.custom ul#infolinks li {margin-left: 1px; padding:4px;}
+
+.custom ul#infolinks li#rating {padding-left:22px; background:url(/images/rating-icon.png) no-repeat left center;}
+.custom ul#infolinks li#homepage {padding-left:22px; background:url(/images/homepage-icon.png) no-repeat left center;}
+.custom ul#infolinks li#downloadpage {padding-left:22px; background:url(/images/downloadpage-icon.png) no-repeat left center;}
+.custom ul#infolinks li#requirements {padding-left:22px; background:url(/images/requirements-icon.png) no-repeat left center;}
+.custom ul#infolinks li#license {padding-left:22px; background:url(/images/license-icon.png) no-repeat left center;}
+.custom ul#infolinks li#pros {padding-left:22px; background:url(/images/pros-icon.png) no-repeat left center;}
+.custom ul#infolinks li#cons {padding-left:22px; background:url(/images/cons-icon.png) no-repeat left center;}
+.custom ul#infolinks li#info {padding-left:22px; background:url(/images/info-icon.png) no-repeat left center;}
+
+
+.custom #optiontable
+{
+width:100%;
+border-collapse:collapse;
+}
+.custom #optiontable td, #optiontable th 
+{
+font-size:1.1em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+.custom #optiontable th 
+{
+font-size:1.2em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#E3F0F2;
+}
+.custom #optiontable tr.alt td 
+{
+color:#000;
+background-color:#F9F7E4;
+}
