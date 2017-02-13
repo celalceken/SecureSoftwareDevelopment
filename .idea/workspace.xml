@@ -2,181 +2,261 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11048603-e05d-4f49-99d6-2bf95989b08d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/Lecture4.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3DOMBasedXSS/ForVictims.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3DOMBasedXSS/Log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3DOMBasedXSS/Phishing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3DOMBasedXSS/VulnerablePage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/Dogrula.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/OgrenciArama.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/OgrenciArama1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/OgrenciDogrula.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/OgrenciEkle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/OgrenciEkle1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/PersonelAnaSayfa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/PersonelGirisEkrani.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5Beef/Stealing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/.idea/Lecture3.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/Bicim.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/DatePicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bg8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/bgfadegreen.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-blue-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-blue-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-gray-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-gray-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-green-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-green-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-orange-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-orange-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-red-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/img/oval-red-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Bicim/ui-lightness/jquery-ui-1.8.16.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Dogrula.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/FilitreBayraklari.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/FilitreBayraklari1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/FilitreBayraklari2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Genel/Altlik.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Genel/Baslik.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Genel/Menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Genel/VeritabaniBaglantisi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Guvenlik/Cikis.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Guvenlik/PersonelDenetim.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/JS/jquery-1.9.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/JS/jquery-ui-1.8.11.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/JS/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/JS/jquery.history.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/JS/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/JS/jquery.ui.datepicker-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/OgrenciArama.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/OgrenciArama1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/OgrenciDogrula.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/OgrenciEkle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/OgrenciEkle1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/PersonelAnaSayfa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/PersonelGirisEkrani.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Uygulama21.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/Uygulama22.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks).htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/Audioicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/a_002" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/bash-132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/brand" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/cbgapi.loaded_0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/cbgapi.loaded_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/closeIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/fastbutton.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/fastbutton_002.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/fastbutton_data/rsAItRSTNLjbBUuEvKKJz3V_ZguFI-NK47cg.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/free-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/ga.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/icon_biggrin.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/icon_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/inputtools.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/inputtools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/jsapi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/like.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/like_002.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/10157408_573934582702520_332709660_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/10259883_10152131231643099_7112455834495166345_t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/10306261_696777127032390_6484169634444158599_t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/1150226_564469683620280_917035759_t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/1237621_771581669528213_1591688189_t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/1506034_649510748445638_1748118379_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/1780658_10202779647869950_1969975116_t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/1947657_455533837882382_3146818643753446583_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/263635_10150224926086172_1274313_a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/581_1375220399364871_804267680_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/988409_10152226376165498_2082627809_t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/likebox_data/sMhz0F_P_Mp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/linux-sysadmin-200-166.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/nagios-core-132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/person.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/person_data/rsAItRSTMSH2KNNvFx6VFXxVcfLRHFZNiAoA.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/person_data/rsAItRSTNJ_c715WHfvWgV1g-0RNem_fSJ-Q" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/person_data/rsAItRSTO0YFqLLR1ZnsQ-twwADc5HWT7ecA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/plusone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/pop-up_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/postmessageRelay.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/postmessageRelay_data/682094929-postmessagerelay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/postmessageRelay_data/corerpcshindig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/ramesh-small.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/sed-and-awk-132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/show_ads.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/t13n" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/thegeekstuff.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/transliteration.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/transliteration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/tweet_button.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/tweet_button_002.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/tweet_button_data/count.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/vim-101-hacks-132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS Attack Examples (Cross-Site Scripting Attacks)_dosyalar/widgets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lecture5/XSS1.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/2ReflectedXSS/ForVictims.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/ForVictims.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/2ReflectedXSS/Log.txt" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Log.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/2ReflectedXSS/Phishing.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/2ReflectedXSS/Phishing1.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/2ReflectedXSS/PhishingCoded.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/PhishingCoded.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/2ReflectedXSS/Stealing.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Stealing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3DOMBasedXSS/Stealing.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Stealing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4KeyLogger/ForVictims.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/ForVictims.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4KeyLogger/KeyLog.txt" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLog.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4KeyLogger/KeyLogger.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4KeyLogger/KeyLogger.js" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4KeyLogger/KeyLogger.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5Beef/ForVictims.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/ForVictims.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5Beef/Log.txt" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Log.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5Beef/Phishing.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5Beef/Phishing1.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/VeritabaniArayuzu.interface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/VeritabaniIslemleri.class.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/DatePicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/Main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bg8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/bgfadegreen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-blue-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-blue-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-gray-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-gray-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-green-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-green-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-orange-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-orange-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-red-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/img/oval-red-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/ui-lightness/jquery-ui-1.8.16.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Configuration/Altlik.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Configuration/Baslik.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Configuration/DatabaseConnection1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Configuration/Menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Configuration/OgrenciBilgiSistemi.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jquery-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jquery-ui-1.8.11.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jquery.history.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jquery.ui.datepicker-tr.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/AnaSayfa.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/AnaSayfa.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Classes/Database.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/Database.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Classes/DatabaseException.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/DatabaseException.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Classes/Logger.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/Logger.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Classes/ObjectFactory.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/ObjectFactory.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Classes/SessionManagement.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/SessionManagement.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Configuration/DatabaseCredentials.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Configuration/DatabaseCredentials.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Dogrula.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Dogrula.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Guvenlik/Cikis.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Guvenlik/Cikis.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Guvenlik/PersonelDenetim.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Guvenlik/PersonelDenetim.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Include/Altlik.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Include/Altlik.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Include/Baslik.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Include/Baslik.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Include/Cikis.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Include/Cikis.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Include/DatabaseConnection.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Include/DatabaseConnection.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Include/Logger.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Include/Logger.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Include/Menu.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Include/Menu.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Include/VeritabaniBaglantisi.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Include/VeritabaniBaglantisi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/JS/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/JS/jquery-1.9.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/JS/jquery-ui-1.8.11.custom.min.js" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/JS/jquery-ui-1.8.11.custom.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/JS/jquery-ui.js" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/JS/jquery-ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/JS/jquery.history.js" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/JS/jquery.history.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/JS/jquery.js" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/JS/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/JS/jquery.ui.datepicker-tr.js" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/JS/jquery.ui.datepicker-tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/LICENSE" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Log.txt" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Log.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Model/AkademikPersonel.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/AkademikPersonel.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Model/Kisi.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/Kisi.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Model/KisiGoruntuleyici.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/KisiGoruntuleyici.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Model/ModelFactory.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/ModelFactory.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Model/Ogrenci.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/Ogrenci.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Model/OgrenciGoruntuleJSON.class.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/OgrenciGoruntuleJSON.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/OgrenciArama.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/OgrenciArama.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/OgrenciArama1.php" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/OgrenciArama1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/README.md" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/Veritabani.sql" afterPath="$PROJECT_DIR$/Lecture2/Veritabani/Veritabani.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/InsecureWebApplication/index.html" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/Veritabani/Veritabani.pdf" afterPath="$PROJECT_DIR$/Lecture2/Veritabani/Veritabani.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lecture3/Veritabani/Veritabani.sql" afterPath="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Veritabani.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/FilitreBayraklari.png" afterPath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/FilitreBayraklari.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/FilitreBayraklari1.png" afterPath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/FilitreBayraklari1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/FilitreBayraklari2.png" afterPath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/FilitreBayraklari2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg0.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg0.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg1.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg2.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg2.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg3.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg4.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg5.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg6.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg7.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg7.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg8.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bg8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bgfadegreen.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/bgfadegreen.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-blue-left.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-blue-left.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-blue-right.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-blue-right.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-gray-left.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-gray-left.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-gray-right.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-gray-right.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-green-left.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-green-left.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-green-right.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-green-right.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-orange-left.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-orange-left.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-orange-right.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-orange-right.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-red-left.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-red-left.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-red-right.gif" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/img/oval-red-right.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/Veritabani/Veritabani.pdf" afterPath="$PROJECT_DIR$/Lecture4/Veritabani/Veritabani.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Odev1.pdf" afterPath="$PROJECT_DIR$/Odev1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LectureExamples.iml" afterPath="$PROJECT_DIR$/.idea/LectureExamples.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/10Bootstrap.html" afterPath="$PROJECT_DIR$/Lecture2/10Bootstrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/1Ajax.php" afterPath="$PROJECT_DIR$/Lecture2/1Ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/1Ajax1.php" afterPath="$PROJECT_DIR$/Lecture2/1Ajax1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/2Ajax.php" afterPath="$PROJECT_DIR$/Lecture2/2Ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/2Ajax1.php" afterPath="$PROJECT_DIR$/Lecture2/2Ajax1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/3Ajax.php" afterPath="$PROJECT_DIR$/Lecture2/3Ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/3Ajax1.php" afterPath="$PROJECT_DIR$/Lecture2/3Ajax1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/41cd_catalog1.css" afterPath="$PROJECT_DIR$/Lecture2/41cd_catalog1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/41cd_catalog_with_css.xml" afterPath="$PROJECT_DIR$/Lecture2/41cd_catalog_with_css.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/42cd_catalog_with_xslt.xml" afterPath="$PROJECT_DIR$/Lecture2/42cd_catalog_with_xslt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/42cdcatalog.xsl" afterPath="$PROJECT_DIR$/Lecture2/42cdcatalog.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/4cd_catalog.xml" afterPath="$PROJECT_DIR$/Lecture2/4cd_catalog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/5Colors.json" afterPath="$PROJECT_DIR$/Lecture2/5Colors.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/6XMLParsing.html" afterPath="$PROJECT_DIR$/Lecture2/6XMLParsing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/7JSONParsing.html" afterPath="$PROJECT_DIR$/Lecture2/7JSONParsing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/8JSONPHP.php" afterPath="$PROJECT_DIR$/Lecture2/8JSONPHP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/8JSONPHP1.php" afterPath="$PROJECT_DIR$/Lecture2/8JSONPHP1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/9XMLPHP.php" afterPath="$PROJECT_DIR$/Lecture2/9XMLPHP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/9XMLPHP1.php" afterPath="$PROJECT_DIR$/Lecture2/9XMLPHP1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/Ogrenciler.json" afterPath="$PROJECT_DIR$/Lecture2/Ogrenciler.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture2/Ogrenciler.xml" afterPath="$PROJECT_DIR$/Lecture2/Ogrenciler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/1SQLInjection/1sqlmap" afterPath="$PROJECT_DIR$/Lecture4/1SQLInjection/1sqlmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture5/.idea/.name" afterPath="$PROJECT_DIR$/Lecture5/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture5/.idea/deployment.xml" afterPath="$PROJECT_DIR$/Lecture5/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture5/.idea/modules.xml" afterPath="$PROJECT_DIR$/Lecture5/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Lecture5/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/1XSS.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/1XSS.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/2XSS.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/2XSS.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/ForVictims.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/ForVictims.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Log.txt" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.class.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing1.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/PhishingCoded.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/PhishingCoded.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Stealing.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Stealing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/StoredXSS.txt" afterPath="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/StoredXSS.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/ForVictims.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/ForVictims.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLog.txt" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.js" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/ForVictims.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/ForVictims.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Log.txt" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing1.html" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Stealing.php" afterPath="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Stealing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/Filtre.php" afterPath="$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/Filtre.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/.name" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/Lecture3.iml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/Lecture3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/deployment.xml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/encodings.xml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/misc.xml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/modules.xml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/vcs.xml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/Bicim.css" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/Bicim.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/DatePicker.css" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/DatePicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/jquery-ui-1.8.16.custom.css" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Bicim/ui-lightness/jquery-ui-1.8.16.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Dogrula.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Dogrula.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Altlik.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Altlik.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Baslik.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Baslik.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Menu.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/VeritabaniBaglantisi.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/VeritabaniBaglantisi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Guvenlik/Cikis.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Guvenlik/Cikis.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Guvenlik/PersonelDenetim.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Guvenlik/PersonelDenetim.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery-1.9.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery-ui-1.8.11.custom.min.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery-ui-1.8.11.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery-ui.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery.history.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery.history.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery.ui.datepicker-tr.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/JS/jquery.ui.datepicker-tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciArama.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciArama.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciArama1.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciArama1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciDogrula.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciDogrula.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciEkle.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciEkle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciEkle1.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciEkle1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/PersonelAnaSayfa.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/PersonelAnaSayfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/PersonelGirisEkrani.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/PersonelGirisEkrani.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/AnaSayfa.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/AnaSayfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/Database.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/Database.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/DatabaseException.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/DatabaseException.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/Logger.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/Logger.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/ObjectFactory.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/ObjectFactory.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/SessionManagement.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/SessionManagement.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Configuration/DatabaseCredentials.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Configuration/DatabaseCredentials.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Dogrula.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Dogrula.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Guvenlik/Cikis.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Guvenlik/Cikis.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Guvenlik/PersonelDenetim.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Guvenlik/PersonelDenetim.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Altlik.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Altlik.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Baslik.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Baslik.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Cikis.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Cikis.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/DatabaseConnection.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/DatabaseConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Logger.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Logger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Menu.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/VeritabaniBaglantisi.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/VeritabaniBaglantisi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery-1.9.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery-ui-1.8.11.custom.min.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery-ui-1.8.11.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery-ui.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery.history.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery.history.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery.ui.datepicker-tr.js" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/JS/jquery.ui.datepicker-tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/LICENSE" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Log.txt" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/AkademikPersonel.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/AkademikPersonel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Kisi.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Kisi.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/KisiGoruntuleyici.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/KisiGoruntuleyici.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/ModelFactory.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/ModelFactory.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Ogrenci.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Ogrenci.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/OgrenciGoruntuleJSON.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/OgrenciGoruntuleJSON.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/VeritabaniArayuzu.interface.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/VeritabaniArayuzu.interface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/VeritabaniIslemleri.class.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/VeritabaniIslemleri.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciArama.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciArama.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciArama1.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciArama1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciDogrula.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciDogrula.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle1.php" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/README.md" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Veritabani.sql" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Veritabani.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/index.html" afterPath="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lecture4/Veritabani/Veritabani.sql" afterPath="$PROJECT_DIR$/Lecture4/Veritabani/Veritabani.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="LectureExamples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,9 +268,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -198,102 +285,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KeyLogger.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.php">
+      <file leaf-file-name="Dogrula.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Dogrula.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForVictims.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/6Beef/ForVictims.html">
+      <file leaf-file-name="OgrenciArama.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/OgrenciArama.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1XSS.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/1XSS.php">
+      <file leaf-file-name="AnaSayfa.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/AnaSayfa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoredXSS.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/StoredXSS.txt">
+      <file leaf-file-name="AkademikPersonel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/AkademikPersonel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.269103">
-              <caret line="6" column="89" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VeritabaniArayuzu.interface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/VeritabaniArayuzu.interface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-461">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VeritabaniIslemleri.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/VeritabaniIslemleri.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1459205483000" expanded="true" signature="751:800" ph="INSERT INTO \&quot;${$table}\&quot;... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseCredentials.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Configuration/DatabaseCredentials.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Log.txt">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Phishing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing.html">
+      <file leaf-file-name="Database.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/Database.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="70" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="70" />
+            <state relative-caret-position="-486">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ogrenci.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Ogrenci.class.php">
+      <file leaf-file-name="SessionManagement.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/SessionManagement.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kisi.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Kisi.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2XSS.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/2XSS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OgrenciEkle1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="-72">
+              <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <folding>
+                <marker date="1487017603583" expanded="true" signature="1925:2047" ph="SELECT \&quot;per... AkademikPersonel" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -311,11 +402,9 @@
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Baslik.php" />
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/XSS2.php" />
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/XSS3.php" />
-        <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/SessionManagement.class.php" />
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/VeritabaniBaglantisi.php" />
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/AnaSayfa.php" />
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/XSS1.php" />
-        <option value="$PROJECT_DIR$/Lecture4/1SQLInjection/1sqlmap" />
         <option value="$PROJECT_DIR$/Lecture4/2XSS/XSS14.php" />
         <option value="$PROJECT_DIR$/Lecture4/2XSS/XSS1.php" />
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/ModelFactory.class.php" />
@@ -329,35 +418,31 @@
         <option value="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Stealing.php" />
         <option value="$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.js" />
         <option value="$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing.html" />
-        <option value="$PROJECT_DIR$/Lecture4/2XSS/1XSS.php" />
         <option value="$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/StoredXSS.txt" />
+        <option value="$PROJECT_DIR$/Lecture4/1SQLInjection/1sqlmap" />
+        <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/SessionManagement.class.php" />
+        <option value="$PROJECT_DIR$/Lecture4/2XSS/1XSS.php" />
         <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Kisi.class.php" />
+        <option value="$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Dogrula.php" />
+        <option value="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/SessionManagement.class.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1366" />
-    <option name="height" value="743" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="width" value="1442" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -374,7 +459,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -382,15 +466,9 @@
               <option name="myItemId" value="LectureExamples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LectureExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LectureExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="SecureSoftwareDevelopment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -399,30 +477,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LectureExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="SecureSoftwareDevelopment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lecture4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LectureExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LectureExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lecture4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InsecureWebApplication2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Lecture2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -431,47 +491,104 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SecureSoftwareDevelopment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lecture2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InsecureWebApplication" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="LectureExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lecture4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="SecureSoftwareDevelopment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InsecureWebApplication2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Lecture2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="InsecureWebApplication" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Guvenlik" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LectureExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecureSoftwareDevelopment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lecture2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InsecureWebApplication" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/media/sf_Drive/Calismalarim/Akademik/ObjectOrientedDesign" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model" />
+      <recent name="$PROJECT_DIR$/Lecture2/InsecureWebApplication" />
+      <recent name="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Configuration" />
+      <recent name="$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes" />
       <recent name="$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS" />
-      <recent name="$PROJECT_DIR$/Lecture4/2XSS" />
-      <recent name="$PROJECT_DIR$/Lecture4/InsecureWebApplication1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lecture2" />
       <recent name="$PROJECT_DIR$/Lecture4" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -485,7 +602,12 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -494,12 +616,14 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
@@ -512,7 +636,9 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -521,35 +647,53 @@
       <changelist id="11048603-e05d-4f49-99d6-2bf95989b08d" name="Default" comment="" />
       <created>1447932031566</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1447932031566</updated>
+      <workItem from="1486984380038" duration="5924000" />
+      <workItem from="1487016421962" duration="1557000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7481000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="-1" y="25" width="1442" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22356495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32349166" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258786" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -567,370 +711,388 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lecture2/8JSONPHP1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7480315">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture2/8JSONPHP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture2/9XMLPHP1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture2/9XMLPHP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8923883">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Configuration/DatabaseCredentials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24161074">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/Baslik.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciEkle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciArama.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/OgrenciArama1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/XSS Attack Examples (Cross-Site Scripting Attacks).htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/PersonelGirisEkrani.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.035714">
-          <caret line="98" column="28" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1658416">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Dogrula.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68564355">
-          <caret line="30" column="62" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/SessionManagement.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6881188">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Dogrula.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/VeritabaniBaglantisi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18811882">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciArama.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Guvenlik/PersonelDenetim.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/1SQLInjection/1sqlmap">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32513368">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/AnaSayfa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.25">
-          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/VeritabaniIslemleri.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/ModelFactory.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.142857">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciArama1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.142858">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/PhishingCoded.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4789916">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/Logger.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="18.142857">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Include/Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.089286">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLog.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/6Beef/Log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/6Beef/Stealing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/3InputFilteringEncoding/Filtre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89973617">
-          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/ForVictims.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Logger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Phishing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="10" column="100" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Stealing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.107143">
-          <caret line="41" column="146" selection-start-line="41" selection-start-column="139" selection-end-line="41" selection-end-column="146" />
+        <state relative-caret-position="0">
+          <caret line="10" column="100" lean-forward="false" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="43.75">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/ForVictims.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        <state relative-caret-position="0">
+          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+        <state relative-caret-position="0">
+          <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/5KeyLogger/KeyLogger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/6Beef/ForVictims.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/6Beef/Phishing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="70" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Ogrenci.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Kisi.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/2XSS.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/1XSS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/3ReflectedXSS/Stealing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="41" column="146" lean-forward="false" selection-start-line="41" selection-start-column="139" selection-end-line="41" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/SessionManagement.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Classes/Database.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/filter.php" />
+    <entry file="file://$PROJECT_DIR$/Lecture4/1SQLInjection/1sqlmap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/1XSS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture4/2XSS/4StoredXSS/StoredXSS.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.269103">
-          <caret line="6" column="89" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="6" column="88" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Ogrenci.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/Model/Kisi.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication2/OgrenciEkle1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Genel/VeritabaniBaglantisi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture4/InsecureWebApplication1/Dogrula.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/Configuration/DatabaseConnection1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/1Ajax1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <marker date="1486932365000" expanded="true" signature="95:120" ph="SELECT * FRO... Ogrenci" />
+            <marker date="1486932365000" expanded="true" signature="174:224" ph="..." />
+            <marker date="1486932365000" expanded="true" signature="181:224" ph="..." />
+            <marker date="1486932365000" expanded="true" signature="286:290" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/2Ajax1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <marker date="1486933297000" expanded="true" signature="157:230" ph="SELECT * FRO... Ogrenci" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/2Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/8JSONPHP1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1486933297000" expanded="true" signature="68:133" ph="SELECT * FRO... Ogrenci" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/8JSONPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/9XMLPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/4Ogrenciler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/5Ogrenciler.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/1Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/ObjectFactory.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Configuration/DatabaseCredentials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/Database.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Classes/SessionManagement.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <marker date="1487017603583" expanded="true" signature="1925:2047" ph="SELECT \&quot;per... AkademikPersonel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Dogrula.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/OgrenciArama.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/AnaSayfa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/AkademikPersonel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/VeritabaniArayuzu.interface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture2/InsecureWebApplication/Model/VeritabaniIslemleri.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459205483000" expanded="true" signature="751:800" ph="INSERT INTO \&quot;${$table}\&quot;... " />
+          </folding>
         </state>
       </provider>
     </entry>
