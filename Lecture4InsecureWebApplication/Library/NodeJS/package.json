@@ -1,0 +1,25 @@
+{
+  "name": "SocketioPushNotificationServer",
+  "version": "1.0.1",
+  "description": "push notification server with socketio.",
+  "main": "server.js",
+
+  "dependencies": {
+    "socket.io": "",
+    "xml2json": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": " ",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celalceken/NetworkProgramming"
+  },
+  "author": "Celal Çeken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/celalceken/NetworkProgramming"
+  }
+}
