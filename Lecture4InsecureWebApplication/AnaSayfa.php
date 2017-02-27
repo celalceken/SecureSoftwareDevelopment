@@ -9,7 +9,7 @@
 $title="Personel Ana Sayfası";
 //require_once 'Include/Baslik.php';
 require_once(__DIR__.'/Model/AkademikPersonel.class.php'); // Session icerisindeki nesnenin oluşturulabilmesi için gerekli
-require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara eklenmeli...
+//require_once 'Guvenlik/PersonelDenetim.php'; //Site içerisindeki tüm sayfalara eklenmeli...
 require_once (__DIR__.'/Model/ModelFactory.class.php');
 require_once (__DIR__.'/Model/AkademikPersonelGoruntuleJSON.class.php');
 //session_start();
@@ -27,8 +27,6 @@ require_once (__DIR__.'/Model/AkademikPersonelGoruntuleJSON.class.php');
     <link rel="stylesheet" href="https://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" hrf="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/smoothness/jquery-ui.css" />
 
 </head>
 <body >
@@ -121,14 +119,14 @@ require_once (__DIR__.'/Model/AkademikPersonelGoruntuleJSON.class.php');
         <p class="text-muted">Öğrenci Bilgi Sistemi</p>
     </div>
 </footer>
-<script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
+<!--<script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>-->
 <script>
 
     $(function()
     {
         // Mesajlaşma....
 
-        var socket = io.connect('http://localhost:8000');
+       /* var socket = io.connect('http://localhost:8000');
         // on every message recived we print the new datas inside the #container div
         socket.on('notification', function (data) {
             //alert (data);
@@ -137,9 +135,9 @@ require_once (__DIR__.'/Model/AkademikPersonelGoruntuleJSON.class.php');
             //alert (_data);
             // $('#duyurular').append(new Date());
             $('#duyurular').empty();
-            /*$.each(data, function(i, item) {
+            /!*$.each(data, function(i, item) {
              $('#duyurular').append(i);
-             });​*/
+             });​*!/
             $('#duyurular').append(data.Duyurular.duyuru.duyuruNo);
             $('#duyurular').append(data.Duyurular.duyuru.duyuruAyrinti);
 
@@ -162,7 +160,7 @@ require_once (__DIR__.'/Model/AkademikPersonelGoruntuleJSON.class.php');
             $('#m').val('');
             }
             //return false;
-        });
+        });*/
 
 
 
@@ -217,8 +215,6 @@ require_once (__DIR__.'/Model/AkademikPersonelGoruntuleJSON.class.php');
 
     });
 </script>
-
-
 
 
 

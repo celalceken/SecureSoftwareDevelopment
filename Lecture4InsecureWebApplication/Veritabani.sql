@@ -52,7 +52,7 @@ SET default_with_oids = false;
 --
 
 CREATE TABLE "AkademikPersonel" (
-    id integer NOT NULL,
+    id serial NOT NULL,
     "personelNo" character varying(10) NOT NULL,
     adi character varying(40) NOT NULL,
     soyadi character varying(40) NOT NULL,

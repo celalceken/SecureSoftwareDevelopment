@@ -26,31 +26,42 @@
 
 <body>
 
+
+
 <div class="container">
 
-    <form class="form-signin">
-        <h2 class="form-signin-heading">Lütfen giriş yapınız</h2>
-        <label for="personelNo" class="sr-only">Numara</label>
-        <input type="text" id="personelNo" name="personelNo" class="form-control" placeholder="Numarınız" required autofocus oninvalid="this.setCustomValidity('Geçerli bir değer giriniz...')"> <!--type="email"-->
-        <label for="sifre" class="sr-only">Şifre</label>
-        <input type="password" id="sifre" name="sifre" class="form-control" placeholder="Şifreniz" required oninvalid="this.setCustomValidity('Geçerli bir değer giriniz...')">
-        <div class="alert alert-danger" id="mesaj">
-            <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" class="checkbox-success" name="kisi" value="akademik" checked="checked"> Akademik Personel
-            </label>
-            <label>
-                <input type="checkbox" class="mycheckbox" name="kisi" value="ogrenci"> Öğrenci
-            </label>
-        </div>
-        <!--<div class="checkbox checkbox-success">
-            <input id="checkbox3" type="checkbox">
-            <label for="checkbox3"> Success </label>
-        </div>-->
-        <button class="btn btn-lg btn-primary btn-block" type="submit" id="giris">Giriş</button>
-    </form>
+    <div class="jumbotron alert-success ">
+        <h1>Öğrenci Bilgi Sistemi Uygulaması</h1>
+        <p>Güvenli Olmayan Öğrenci Bilgi Sistemi Uygulaması</p>
+    </div>
+
+    <!--<div class="panel panel-default">-->
+        <!--<div class="panel-body">-->
+            <form class="form-signin">
+                <h2 class="form-signin-heading">Lütfen giriş yapınız</h2>
+                <label for="personelNo" class="sr-only">Numara</label>
+                <input type="text" id="personelNo" name="personelNo" class="form-control" placeholder="Numarınız" required autofocus oninvalid="this.setCustomValidity('Geçerli bir değer giriniz...')"> <!--type="email"-->
+                <label for="sifre" class="sr-only">Şifre</label>
+                <input type="password" id="sifre" name="sifre" class="form-control" placeholder="Şifreniz" required oninvalid="this.setCustomValidity('Geçerli bir değer giriniz...')">
+                <div class="alert alert-danger" id="mesaj">
+                    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" class="checkbox-success" name="kisi" value="akademik" checked="checked"> Akademik Personel
+                    </label>
+                    <label>
+                        <input type="checkbox" class="mycheckbox" name="kisi" value="ogrenci"> Öğrenci
+                    </label>
+                </div>
+                <!--<div class="checkbox checkbox-success">
+                    <input id="checkbox3" type="checkbox">
+                    <label for="checkbox3"> Success </label>
+                </div>-->
+                <button class="btn btn-lg btn-primary btn-block" type="submit" id="giris">Giriş</button>
+            </form>
+        <!--</div>-->
+    <!--</div>-->
 
 </div> <!-- /container -->
 
@@ -61,11 +72,7 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+
 <script   type="text/javascript">
     $(document).ready(function()
     {
@@ -102,7 +109,7 @@
                             if (data['sonuc']=='1')
                             {
                                 window.location = 'AnaSayfa.php';
-                                return;
+
                             }
                             else
                             {

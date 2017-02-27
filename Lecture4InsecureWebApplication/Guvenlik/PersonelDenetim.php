@@ -1,6 +1,7 @@
 
 
 		<?php
+
 			
 			session_start();
 			
@@ -22,7 +23,7 @@
 				if ($oturumSuresi > $oturumOmru)
 				{
 					echo "Oturum süreniz dolmuştur...";	
-					header("Location: ../Include/Cikis.php");
+					header("Location: Include/Cikis.php");
 				}
 			}
 			$_SESSION['baslangicZamani'] = time();

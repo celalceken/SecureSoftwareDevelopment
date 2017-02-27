@@ -62,13 +62,13 @@ require_once 'Guvenlik/PersonelDenetim.php';
 				},
 				error: function()
 				{
-					alert("Hata meydana geldi. Lütfen tekrar deneyiniz !!!");
+					alert("Hata meydana geldi, lütfen tekrar deneyiniz !!!");
 				}
 			});
 
 			return false;
 
-		}
+		};
 
 		$('#ogrenciNo').blur(function(e){
 			if(e.which==16) // ignore shift key

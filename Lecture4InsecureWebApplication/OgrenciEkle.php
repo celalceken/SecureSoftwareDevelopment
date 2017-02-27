@@ -5,12 +5,7 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("#mesaj,#mesaj1, #mesaj2").hide();
 
-		$('#ogrenciNo').focus(function()
-		{
-			$('#mesaj').hide();
-		});
 
 		$('#ogrenciNo').blur(function() {
 
