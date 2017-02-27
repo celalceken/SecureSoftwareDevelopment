@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="application/json">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+    <script>
+        $(document).ready( function () {
+            $.ajax({
+                type: 'GET',
+                url: "http://maps.googleapis.com/maps/api/geocode/json",
+                dataType: "json",
+                data: {
+                    'latlng':"40.742447,30.325603",
+                    'sensor': false},
+                success: function(data)
+                {
+                    //alert(data);
+                    //$('#adres').html(data);
+                    $.each( data['results'],function(i, val) {
+                        $.each( val['address_components'],function(i, val) {
+                            if( (val['types'] ==  "administrative_area_level_1", "political") )   {
+                                if (val['long_name']!="")
+                                {
+                                    $('#adres').val(val['long_name']);
+                                }
+                                else {
+                                    $('#adres').html("unknown");
+                                }
+
+                            }
+                        });
+                    });
+
+                },
+                error: function () { console.log('error'); }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<input type="text" id="adres">
+
+</body>
+</html>
