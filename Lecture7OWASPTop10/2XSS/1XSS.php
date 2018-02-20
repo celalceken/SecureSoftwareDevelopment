@@ -29,8 +29,8 @@
             CSS Hex Encoding
        */
         //$input = filter_var($input, FILTER_SANITIZE_STRING);
-        //$input = filter_var($input, FILTER_SANITIZE_STRING);
-       // $input = filter_var($input, FILTER_SANITIZE_ENCODED);
+       // $input = filter_var($input, FILTER_SANITIZE_STRING);
+        //$input = filter_var($input, FILTER_SANITIZE_ENCODED);
         //echo htmlentities($input) ;
        // echo htmlspecialchars($input) ;
        // echo urlencode($input) ;

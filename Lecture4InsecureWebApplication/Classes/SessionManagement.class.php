@@ -57,9 +57,9 @@ class SessionManagement {
 
     protected function checkCredentials($userName,$password)
     {
-        /*$sql="SELECT personelNo, adi, soyadi,sifre FROM AkademikPersonel where personelNo='"
+       /* $sql="SELECT personelNo, adi, soyadi,sifre FROM AkademikPersonel where personelNo='"
             .$this->userName."' AND sifre='".$this->password."'";//
-            //sifre='".md5($this->password)."'";*/
+            sifre='".md5($this->password)."'";*/
 
         include(__DIR__.'/../Include/DatabaseConnection.php');
 

