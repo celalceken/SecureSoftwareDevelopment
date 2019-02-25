@@ -1,4 +1,4 @@
-* **<https://github.com/celalceken/WebApplicationProject>**
+<https://github.com/celalceken/WebApplicationProject>
 
 phpsessionid cookie is stored in web browser.
 
