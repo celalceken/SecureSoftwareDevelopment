@@ -28,12 +28,16 @@
             JavaScript Encoding
             CSS Hex Encoding
        */
+
+        //$input = filter_var($input, FILTER_SANITIZE_ENCODED);
+
         //$input = filter_var($input, FILTER_SANITIZE_STRING);
        // $input = filter_var($input, FILTER_SANITIZE_STRING);
-        //$input = filter_var($input, FILTER_SANITIZE_ENCODED);
         //echo htmlentities($input) ;
        // echo htmlspecialchars($input) ;
        // echo urlencode($input) ;
+
+        // If you can see the text in your input box, it means the input is not filtered or encoded
         echo($input);
 
 

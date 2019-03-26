@@ -30,11 +30,11 @@ sunucu değişkenleri) her zaman filitrelenmesi gerekmektedir...
 
 echo '<hr /><img src="FilitreBayraklari.png" /> <hr />';
 
-$sayi = 123;
+$sayi = 123a;
 
 echo "girilen sayi(int):". filter_var($sayi, FILTER_VALIDATE_INT); //sayi değişkeni int ise değeri aksi halde false döner...
 echo '<hr />';
-echo "e posta:".var_dump(filter_var('xy@zabc.com', FILTER_VALIDATE_EMAIL));
+echo "e posta:".var_dump(filter_var('xy@zab.ccom', FILTER_VALIDATE_EMAIL));
  echo '<hr />';
 echo (filter_var('http://xyz.com', FILTER_VALIDATE_URL));
  echo '<hr />';
