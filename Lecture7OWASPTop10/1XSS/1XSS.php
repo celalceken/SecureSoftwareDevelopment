@@ -19,7 +19,8 @@
 	if(isset($_POST['adi']))
     {
             $input=$_POST['adi'];
-
+            //echo($input);
+            echo htmlentities($input) ;
 
 
        /*   HTML Entity Encoding (Convert < to &lt;  Convert > to &gt;)
@@ -38,7 +39,7 @@
        // echo urlencode($input) ;
 
         // If you can see the text in your input box, it means the input is not filtered or encoded
-        echo($input);
+
 
 
         //echo $input ;

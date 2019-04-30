@@ -11,7 +11,9 @@
 var ESAPI = require('node-esapi');
 // - Step 2: Encode the user input that will be logged in the correct context
 // following are a few examples:
-console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForHTML('<script>'));
+
+//&lt;script&gt;alert&#x28;&#x27;xy&#x27;&#x29;&#x3b;&lt;&#x2f;script&gt;
+console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForHTML('<script>alert(\'xy\');</script>'));
 console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForJavaScript('<script>'));
 console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForURL('<script>'));
 

