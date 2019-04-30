@@ -1,7 +1,0 @@
-{
-  "name": "Encoding",
-  "version": "1.0.0",
-  "dependencies": {
-    "node-esapi": "0.0.1"
-  }
-}
