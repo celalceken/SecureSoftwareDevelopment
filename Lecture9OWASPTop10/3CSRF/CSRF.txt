@@ -1,0 +1,22 @@
+// Reference page for the scenario below is "https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+
+If the application was designed to primarily use GET requests to transfer parameters and execute actions, the money transfer operation might be reduced to a request like:
+
+GET http://bank.com/transfer.do?acct=BOB&amount=100 HTTP/1.1
+
+Maria now decides to exploit this web application vulnerability using Alice as her victim. Maria first constructs the following exploit URL which will transfer $100,000 from Alice's account to her account. She takes the original command URL and replaces the beneficiary name with herself, raising the transfer amount significantly at the same time:
+
+http://bank.com/transfer.do?acct=MARIA&amount=100000
+
+The social engineering aspect of the attack tricks Alice into loading this URL when she's logged into the bank application. This is usually done with one of the following techniques:
+
+    sending an unsolicited email with HTML content
+    planting an exploit URL or script on pages that are likely to be visited by the victim while they are also doing online banking
+
+The exploit URL can be disguised as an ordinary link, encouraging the victim to click it:
+
+<a href="http://bank.com/transfer.do?acct=MARIA&amount=100000">View my Pictures!</a>
+
+Or as a 0x0 fake image:
+
+<img src="http://bank.com/transfer.do?acct=MARIA&amount=100000" width="0" height="0" border="0">
