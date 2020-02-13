@@ -7,8 +7,13 @@
   "main": "server.js",
   "dependencies": {
     "express": "~4.0.0",
+<<<<<<< 1bd9838efd052922344dc9f1d2032d5097068092
     "morgan": "~1.0.0",
     "mongoose": "~5.8.12",
+=======
+    "morgan": "~1.9.1",
+    "mongoose": "~3.6.13",
+>>>>>>> Bump morgan in /Lecture8OWASPTop10/1WebServices/2RestAPI/NodeJSRestAPI
     "body-parser": "~1.0.1",
     "monk": "",
     "should": "",
