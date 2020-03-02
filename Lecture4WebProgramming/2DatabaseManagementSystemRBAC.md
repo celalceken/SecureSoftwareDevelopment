@@ -1,0 +1,1 @@
+<https://github.com/celalceken/DatabaseManagementSystems/blob/master/VYS14.md>

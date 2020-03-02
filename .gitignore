@@ -3,3 +3,8 @@ Netten
 References
 *.idea*
 Resources
+*.info.*
+
+BeniOku.txt
+package-lock.json
+node_modules

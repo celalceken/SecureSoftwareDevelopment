@@ -41,9 +41,11 @@
 
 	<body>
 
+    Merhaba Dünya....
+
 		<input style="" type="submit" id="gonder" value="Listele" onclick="listele();"/>
 
-		<div id="ortaForm" style="margin-left: 200px; height: 200px; overflow-x: hidden; overflow-y: scroll;">
+		<div id="ortaForm" style="margin-left: 300px; height: 300px;  overflow-y: scroll;">
 
 		
 		</div>
