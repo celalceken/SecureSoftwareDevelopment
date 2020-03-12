@@ -7,4 +7,4 @@
 ## <http://nodegoat.herokuapp.com/tutorial>
 
 # Security Testing (OWASP ZAP  Getting Started Guide)
-## <https://github.com/zaproxy/zaproxy/wiki/Downloads>
+## <https://www.zaproxy.org/docs/>
