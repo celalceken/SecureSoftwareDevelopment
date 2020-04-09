@@ -6,14 +6,27 @@
  * For more information:
  * https://static.javadoc.io/org.owasp.esapi/esapi/2.1.0/org/owasp/esapi/Encoder.html#encodeForSQL(org.owasp.esapi.codecs.Codec,%20java.lang.String)
  *
+
+
+
+The encoder() returns an object with the following main functions:
+
+    encodeForHTML
+encodeForCSS
+encodeForJS = encodeForJavaScript = encodeForJavascript
+encodeForURL
+encodeForHTMLAttribute
+encodeForBase64
+
  */
+
 
 var ESAPI = require('node-esapi');
 // - Step 2: Encode the user input that will be logged in the correct context
 // following are a few examples:
 
 //&lt;script&gt;alert&#x28;&#x27;xy&#x27;&#x29;&#x3b;&lt;&#x2f;script&gt;
-console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForHTML('<script>alert(\'xy\');</script>'));
+console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForHTML('<script>alert(document.cookie);</script>'));
 console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForJavaScript('<script>'));
 console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForURL('<script>'));
 
@@ -21,13 +34,4 @@ console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().enc
 console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForJavaScript("u<ntrus>te'd'"));
 console.log('Error: attempt to login with invalid user: %s', ESAPI.encoder().encodeForURL("u<ntrus>te'd'"));
 
-/*
 
-// HTML Context
-String html = Encoder.forHtml("u<ntrus>te'd'");
-
-// HTML Attribute Context
-String htmlAttr = Encoder.forHtmlAttribute("u<ntrus>te'd'");
-
-// Javascript Attribute Context
-String jsAttr = Encoder.forJavaScriptAttribute("u<ntrus>te'd'");*/

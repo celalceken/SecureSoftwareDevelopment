@@ -31,7 +31,7 @@
        */
 
         //$input = filter_var($input, FILTER_SANITIZE_ENCODED);
-
+        //echo ($input);
         //$input = filter_var($input, FILTER_SANITIZE_STRING);
        // $input = filter_var($input, FILTER_SANITIZE_STRING);
         //echo htmlentities($input) ;
@@ -48,7 +48,7 @@
 	}
 ?>
 <form  method="POST" action="1XSS.php">
-    First name: <input type="text" name="adi" /><br />
+    Adı: <input type="text" name="adi" /><br />
     <input type="submit" value="Submit" />
 </form>
 

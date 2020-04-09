@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p id="p1">Merhaba</p>
+
+<script>
+
+   // http://192.168.56.103/SecureSoftwareDevelopment/Lecture7/1XSS/4DOMBasedXSS/dom.html?adi=<img+src+onerror=alert(1)>
+
+
+    var currentSearch = document.location.search;
+    var searchParams = new URLSearchParams(currentSearch);
+
+
+    var adi = searchParams.get('adi');
+
+    if (adi !== null) {
+        document.getElementById('p1').innerHTML = 'Merhaba, ' + adi ;
+    }
+
+
+</script>
+
+</body>
+</html>
