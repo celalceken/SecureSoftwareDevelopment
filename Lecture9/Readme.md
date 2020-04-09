@@ -9,5 +9,3 @@
 # OWASP Proactive Controls
 ## <https://www.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf>
 
-# OWASP Application Security Verification Standard 
-## <https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project>
