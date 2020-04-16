@@ -1,7 +1,7 @@
 /**
  *
  *JWT: JSON Web Token
- *Kimlik doğrulama ve iki sistem arasında güvenli olarak bilgi taşıma amacıyla kullanılır.
+ *Kimlik doğrulama, erişim denetimi ve iki sistem arasında güvenli olarak bilgi taşıma amacıyla kullanılır.
  *İletilen bilginin değiştirilememesi için dijital imza kullanılır
  * Header.payload.signature   bölümlerinden oluşur
  *
@@ -172,7 +172,7 @@ router.route('/Authenticate/Ogrenciler/:ogrenciNo')
 
             jwt.verify(receivedToken, secret, function(err, decoded) {
                 if (err) {
-                    return res.json({  "mesaj": "Jeton gönderiminde sorun var" });
+                    return res.json({  "mesaj": "Geçersiz jeton" });
                 }
 
                 console.log("Alinan jeton ->"+decoded.userID+" "+decoded.name);
@@ -190,7 +190,7 @@ router.route('/Authenticate/Ogrenciler/:ogrenciNo')
         else
         {
 
-            res.json({  "mesaj": "Geçersiz jeton" });
+            res.json({  "mesaj": "Jeton alinamadi" });
         }
     });
 

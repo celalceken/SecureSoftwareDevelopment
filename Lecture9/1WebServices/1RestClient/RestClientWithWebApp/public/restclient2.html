@@ -11,20 +11,19 @@
 
   Öğrenci No: <input type="text" id="ogrenciNo">
 
-  Adi: <input type="text" id="result">
+  <h2 id="result"> </h2>
 
   <script>
       $(document).ready( function () {
           $('#ogrenciNo').blur(function()
           {
-
               $.ajax({
                   type: 'GET',
                   url: 'http://localhost:8080/RestAPI/Ogrenciler/'+$('#ogrenciNo').val(),
                   dataType: 'json',
                   success: function(result)
                   {
-                      $('#result').val(result[0].adi);
+                      $('#result').html(result[0].adi+" "+result[0].soyadi);
                   },
                   error: function ()
                   { alert("hata");
