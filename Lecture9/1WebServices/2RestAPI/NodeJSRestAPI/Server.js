@@ -33,7 +33,7 @@ var router = express.Router();
 app.use('/RestAPI', router);
 
 // Start server
-var port=8080;
+var port=8082;
 app.listen(port);
 console.log('Listening ' + port);
 
@@ -42,6 +42,9 @@ console.log('Listening ' + port);
 // all requests are routed here firstly, then directed to the related route
 router.use(function(req, res, next) {
     console.log('Web Servisine istek geldi');
+    res.header('Access-Control-Allow-Origin', '*'); //Farklı domainlerden içerik alınabilsin diye eklendi
+    res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
     next();
 });
 

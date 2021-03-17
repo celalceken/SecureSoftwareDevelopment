@@ -73,6 +73,7 @@ router.use(function(req, res, next) {
 
 
 
+
 //for GET http://localhost:8080/RestAPI requests
 
 router.get('/', function(req, res) {
@@ -82,16 +83,17 @@ router.get('/', function(req, res) {
 
 
 // create JWT
-function generateToken(req)
+function generateToken(req,data)
 {
     // Gecerlilik süresi 7 gün olarak ayarlanır
     var expiresDefault = Math.floor(new Date().getTime()/1000) + 7*24*60*60;
 
 
     var payload= {
-        "userID": "12345",
-        "name": "Faruk",
-        "role": 3,
+        "userID": data.ogrenciNo,
+        "adi": data.adi,
+        "soyadi": data.soyadi,
+        "role": "admin",
         exp: expiresDefault
 
     };
@@ -103,15 +105,15 @@ function generateToken(req)
 }
 
 
-function authSuccess(req, res) {
-    var token = generateToken(req);
+function authSuccess(req, res,data) {
+    var token = generateToken(req,data);
    // console.log(token);
    // token= jwt.compact();
     res.writeHead(200, {
-        'content-type': 'text/html',
+        'content-type': 'text/json',
         'authorization': token
     });
-    return res.end("Oluşturulan jeton->"+token);
+    return res.end("{\"jeton\":\""+token+"\"}");
 }
 
 
@@ -135,7 +137,7 @@ router.route('/Authenticate')
                 console.log("Kayıt bulundu");
                 //res.json(doc);
 
-                authSuccess(req,res);
+                authSuccess(req,res,doc[0]);
 
 
 
