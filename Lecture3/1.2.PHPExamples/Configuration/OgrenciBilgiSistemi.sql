@@ -13,7 +13,7 @@ SET client_min_messages = warning;
 -- Name: OgrenciBilgiSistemi; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE "OgrenciBilgiSistemi" WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'tr_TR.UTF-8' LC_CTYPE = 'tr_TR.UTF-8';
+/*CREATE DATABASE "OgrenciBilgiSistemi" WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'tr_TR.UTF-8' LC_CTYPE = 'tr_TR.UTF-8';
 
 
 ALTER DATABASE "OgrenciBilgiSistemi" OWNER TO postgres;
@@ -25,7 +25,7 @@ SET lock_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SET check_function_bodies = false;
-SET client_min_messages = warning;
+SET client_min_messages = warning;*/
 
 --
 -- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 

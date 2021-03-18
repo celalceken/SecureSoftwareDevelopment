@@ -24,5 +24,5 @@ while ($row = pg_fetch_array($result)) {
 echo "</table>";
 
 ?>
-	
+
 

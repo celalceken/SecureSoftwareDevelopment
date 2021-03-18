@@ -1,6 +1,6 @@
 <?php
 
-	$sunucu="127.0.0.1";
+	$sunucu="192.168.1.12";
 	$veritabani="OgrenciBilgiSistemi";
 	$kullaniciAdi="LectureUser";
 	$sifre="LecturePassword"; // Bu bilgileri daha güvenli bir klasörde (etc/...) saklayıp oradan erişmek daha güvenlidir.
