@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+  Öğrenci No: <input type="text" id="ogrenciNo">
+
+  <h2 id="result"> </h2>
+
+  <script>
+      $(document).ready( function () {
+          $('#ogrenciNo').blur(function()
+          {
+              $.ajax({
+                  type: 'GET',
+                  url: 'http://localhost:8005/api/users/'+$('#ogrenciNo').val(),
+                  dataType: 'json',
+                  success: function(result)
+                  {
+                      $('#result').html(JSON.stringify(result));
+                  },
+                  error: function ()
+                  { alert("hata");
+                  }
+              });
+          });
+      });
+  </script>
+
+</body>
+
+
+</html>
