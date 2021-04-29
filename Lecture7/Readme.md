@@ -1,3 +1,16 @@
+# Authentication
+
+* Basic Authentication
+
+* Form Based Authentication
+    * https://github.com/celalceken/spring-boot-examples/tree/master/formbasedauthentication
+
+* JSON Web Token (JWT)
+    * https://github.com/celalceken/spring-boot-examples/tree/master/jwt
+    
+* OpenID Connect (OAuth2.0 + OpenID)
+    * https://github.com/celalceken/spring-boot-examples/tree/master/openidconnect
+
 # OWASP Top 10  
 ## <https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project>
 
